@@ -1,3 +1,6 @@
-
+.vs/
 .DS_Store
 config.cfg
+settings.scr
+tempdecal.wad
+models/player/remapped.bmp
