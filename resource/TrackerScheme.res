@@ -196,7 +196,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Blue Highway"
 				"tall"		"16"
 				"weight"	"0"
 			}
@@ -205,7 +205,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Blue Highway"
 				"tall"		"16"
 				"weight"	"500"
 			}
@@ -214,7 +214,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Blue Highway"
 				"tall"		"16"
 				"weight"	"0"
 				"underline" "1"
@@ -224,7 +224,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Blue Highway"
 				"tall"		"13"
 				"weight"	"0"
 			}
@@ -233,7 +233,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Blue Highway"
 				"tall"		"12"
 				"weight"	"600"
 			}
@@ -242,7 +242,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Blue Highway"
 				"tall"		"12"
 				"weight"	"0"
 			}
@@ -251,7 +251,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Handel Gothic"
+				"name"		"Slider"
 				"tall"		"28"
 				"weight"	"1000"
 				"dropshadow" "1"
@@ -263,7 +263,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Handel Gothic"
+				"name"		"Slider"
 				"tall"		"28"
 				"weight"	"800"
 				"dropshadow" "0"
@@ -300,7 +300,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"16"
 				"weight"	"1000"
 				"antialias" "0"
@@ -323,7 +323,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"13"
 				"weight"	"600"
 				"yres"	"480 599"
@@ -331,7 +331,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"15"
 				"weight"	"600"
 				"yres"	"600 767"
@@ -339,7 +339,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"16"
 				"weight"	"600"
 				"yres"	"768 1023"
@@ -347,7 +347,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"21"
 				"weight"	"600"
 				"yres"	"1024 1299"
@@ -355,7 +355,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"28"
 				"weight"	"600"
 				"yres"	"1300 1699"
@@ -363,7 +363,7 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"35"
 				"weight"	"600"
 				"yres"	"1700 1899"
@@ -371,7 +371,7 @@ Scheme
 			}
 			"7"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"42"
 				"weight"	"600"
 				"yres"	"1900 2499"
@@ -379,7 +379,7 @@ Scheme
 			}
 			"8"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"56"
 				"weight"	"600"
 				"yres"	"2500 2999"
@@ -387,7 +387,7 @@ Scheme
 			}
 			"9"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"70"
 				"weight"	"600"
 				"yres"	"3000 10000"
@@ -479,7 +479,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Courier"
+				"name"		"Blue Highway"
 				"tall"		"14"
 				"weight"	"500"
 			}
@@ -976,6 +976,7 @@ Scheme
 		"10"		"resource/linux_fonts/LiberationMono-Regular.ttf"
 		"11"		"resource/linux_fonts/FiraSans-Regular.ttf"
 		"12"		"resource/linux_fonts/FiraSans-Medium.ttf"
-		"13"		"resource/handelgothic.ttf"
+		"13"		"resource/typeface/SLIDER.TTF"
+		"14"		"resource/typeface/BLUE_HIGHWAY_BOLD.OTF"
 	}
 }
