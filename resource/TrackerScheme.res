@@ -16,24 +16,24 @@ Scheme
 	Colors
 	{
 		// base colors
-		"BaseText"			"216 222 211 255"	// used in text windows, lists
+		"BaseText"		"211 212 222 255"	// used in text windows, lists
 		"BrightBaseText"	"255 255 255 255"	// brightest text
-		"SelectedText"		"255 255 255 255"	// selected text
-		"DimBaseText"		"160 170 149 255"	// dim base text
-		"LabelDimText"		"160 170 149 255"	// used for info text
-		"ControlText"		"216 222 211 255"	// used in all text controls
-		"BrightControlText"	"196 181 80 255"	// use for selected controls
+		"SelectedText"		"150 149 170 255"	// selected text
+		"DimBaseText"		"150 149 170 255"	// dim base text
+		"LabelDimText"		"149 149 170 255"	// used for info text
+		"ControlText"		"211 217 222 255"	// used in all text controls
+		"BrightControlText"	"210 210 212 255"	// use for selected controls
 		"DisabledText1"		"117 128 111 255"	// disabled text
 		"DisabledText2"		"40 46 34 255"		// overlay color for disabled text (to give that inset look)
 		"DimListText"		"117 134 102 255"	// offline friends, unsubscribed games, etc.
 
 		// background colors
-		"ControlBG"			"76 88 68 255"		// background color of controls
-		"ControlDarkBG"		"90 106 80 255"		// darker background color; used for background of scrollbars
-		"WindowBG"			"62 70 55 255"		// background color of text edit panes (chat, text entries, etc.)
-		"SelectionBG"		"149 136 49 255"	// background color of any selected text or menu item
-		"SelectionBG2"		"40 46 34 255"		// selection background in window w/o focus
-		"ListBG"			"62 70 55 255"		// background of server browser, buddy list, etc.
+		"ControlBG"		"11 51 103 225"		// background color of controls
+		"ControlDarkBG"		"11 51 103 255"		// darker background color; used for background of scrollbars
+		"WindowBG"		"12 45 83 255"		// background color of text edit panes (chat, text entries, etc.)
+		"SelectionBG"		"49 99 149 255"		// background color of any selected text or menu item
+		"SelectionBG2"		"21 42 64 255"		// selection background in window w/o focus
+		"ListBG"		"12 45 83 255"		// background of server browser, buddy list, etc.
 
 		// titlebar colors
 		"TitleText"			"255 255 255 255"
