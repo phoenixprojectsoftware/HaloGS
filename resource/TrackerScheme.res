@@ -16,7 +16,7 @@ Scheme
 	Colors
 	{
 		// base colors
-		"BaseText"		"211 212 222 255"	// used in text windows, lists
+		"BaseText"			"211 212 222 255"	// used in text windows, lists
 		"BrightBaseText"	"255 255 255 255"	// brightest text
 		"SelectedText"		"150 149 170 255"	// selected text
 		"DimBaseText"		"150 149 170 255"	// dim base text
@@ -38,8 +38,8 @@ Scheme
 		// titlebar colors
 		"TitleText"			"255 255 255 255"
 		"TitleDimText"		"136 145 128 255"
-		"TitleBG"			"76 88 68 0"
-		"TitleDimBG"		"76 88 68 0"
+		"TitleBG"			"11 51 103 255"
+		"TitleDimBG"		"11 51 103 255"
 		
 		// slider tick colors
 		"SliderTickColor"	"127 140 127 255"
@@ -276,7 +276,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"Blue Highway"
 				"tall"		"24"
 				"weight"	"200"
 				"dropshadow" "0"
@@ -288,7 +288,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"Blue Highway"
 				"tall"		"20"
 				"weight"	"200"
 				"dropshadow" "0"
