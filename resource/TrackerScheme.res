@@ -28,8 +28,8 @@ Scheme
 		"DimListText"		"117 134 102 255"	// offline friends, unsubscribed games, etc.
 
 		// background colors
-		"ControlDarkBG"		"11 51 103 255"		// darker background color; used for background of scrollbars
 		"ControlBG"		"11 51 103 255"		// background color of controls
+		"ControlDarkBG"		"4 24 51 255"		// darker background color; used for background of scrollbars
 		"WindowBG"		"12 45 83 255"		// background color of text edit panes (chat, text entries, etc.)
 		"SelectionBG"		"49 99 149 255"		// background color of any selected text or menu item
 		"SelectionBG2"		"21 42 64 255"		// selection background in window w/o focus
