@@ -31,7 +31,7 @@
 		"6"
 	{
 		"label" "FIRING RANGE"
-		"command" "OpenNewGameDialog"
+		"command" "engine map fire_range"
 		"NotMulti" "1"
 	}
 	"7"
