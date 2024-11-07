@@ -22,26 +22,31 @@
 	{
 		"label" "STEAM NETWORK"
 		"command" "OpenServerBrowser"
+		"HelpText" "Join a public game server."
 	}
 	"5"
 	{
 		"label" "CUSTOM GAME"
 		"command" "OpenCreateMultiplayerGameDialog"
+		"HelpText" "Create your own game."
 	}
 		"6"
 	{
 		"label" "FIRING RANGE"
-		"command" "OpenNewGameDialog"
+		"command" "engine map fire_range"
 		"NotMulti" "1"
+		"HelpText" "Practice your skill or try out the weapons."
 	}
 	"7"
 	{
 		"label" "SETTINGS"
 		"command" "OpenOptionsDialog"
+		"HelpText" "Change your settings."
 	}
 	"9"
 	{
 		"label" "QUIT"
 		"command" "Quit"
+		"HelpText" "Leave HaloGS."
 	}
 }

@@ -16,30 +16,30 @@ Scheme
 	Colors
 	{
 		// base colors
-		"BaseText"			"216 222 211 255"	// used in text windows, lists
+		"BaseText"			"211 212 222 255"	// used in text windows, lists
 		"BrightBaseText"	"255 255 255 255"	// brightest text
-		"SelectedText"		"255 255 255 255"	// selected text
-		"DimBaseText"		"160 170 149 255"	// dim base text
-		"LabelDimText"		"160 170 149 255"	// used for info text
-		"ControlText"		"216 222 211 255"	// used in all text controls
-		"BrightControlText"	"196 181 80 255"	// use for selected controls
+		"SelectedText"		"150 149 170 255"	// selected text
+		"DimBaseText"		"150 149 170 255"	// dim base text
+		"LabelDimText"		"149 149 170 255"	// used for info text
+		"ControlText"		"211 217 222 255"	// used in all text controls
+		"BrightControlText"	"210 210 212 255"	// use for selected controls
 		"DisabledText1"		"117 128 111 255"	// disabled text
 		"DisabledText2"		"40 46 34 255"		// overlay color for disabled text (to give that inset look)
 		"DimListText"		"117 134 102 255"	// offline friends, unsubscribed games, etc.
 
 		// background colors
-		"ControlBG"			"76 88 68 255"		// background color of controls
-		"ControlDarkBG"		"90 106 80 255"		// darker background color; used for background of scrollbars
-		"WindowBG"			"62 70 55 255"		// background color of text edit panes (chat, text entries, etc.)
-		"SelectionBG"		"149 136 49 255"	// background color of any selected text or menu item
-		"SelectionBG2"		"40 46 34 255"		// selection background in window w/o focus
-		"ListBG"			"62 70 55 255"		// background of server browser, buddy list, etc.
+		"ControlBG"		"11 51 103 255"		// background color of controls
+		"ControlDarkBG"		"4 24 51 255"		// darker background color; used for background of scrollbars
+		"WindowBG"		"12 45 83 255"		// background color of text edit panes (chat, text entries, etc.)
+		"SelectionBG"		"49 99 149 255"		// background color of any selected text or menu item
+		"SelectionBG2"		"21 42 64 255"		// selection background in window w/o focus
+		"ListBG"		"12 45 83 255"		// background of server browser, buddy list, etc.
 
 		// titlebar colors
 		"TitleText"			"255 255 255 255"
 		"TitleDimText"		"136 145 128 255"
-		"TitleBG"			"76 88 68 0"
-		"TitleDimBG"		"76 88 68 0"
+		"TitleBG"			"11 51 103 255"
+		"TitleDimBG"		"11 51 103 255"
 		
 		// slider tick colors
 		"SliderTickColor"	"127 140 127 255"
@@ -196,7 +196,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Blue Highway"
 				"tall"		"16"
 				"weight"	"0"
 			}
@@ -205,7 +205,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Blue Highway"
 				"tall"		"16"
 				"weight"	"500"
 			}
@@ -214,7 +214,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Blue Highway"
 				"tall"		"16"
 				"weight"	"0"
 				"underline" "1"
@@ -224,7 +224,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Blue Highway"
 				"tall"		"13"
 				"weight"	"0"
 			}
@@ -233,7 +233,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Blue Highway"
 				"tall"		"12"
 				"weight"	"600"
 			}
@@ -242,7 +242,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Blue Highway"
 				"tall"		"12"
 				"weight"	"0"
 			}
@@ -251,7 +251,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Handel Gothic"
+				"name"		"Slider"
 				"tall"		"28"
 				"weight"	"1000"
 				"dropshadow" "1"
@@ -263,7 +263,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Handel Gothic"
+				"name"		"Slider"
 				"tall"		"28"
 				"weight"	"800"
 				"dropshadow" "0"
@@ -276,7 +276,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"Blue Highway"
 				"tall"		"24"
 				"weight"	"200"
 				"dropshadow" "0"
@@ -288,7 +288,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"Blue Highway"
 				"tall"		"20"
 				"weight"	"200"
 				"dropshadow" "0"
@@ -300,7 +300,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"16"
 				"weight"	"1000"
 				"antialias" "0"
@@ -323,7 +323,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"13"
 				"weight"	"600"
 				"yres"	"480 599"
@@ -331,7 +331,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"15"
 				"weight"	"600"
 				"yres"	"600 767"
@@ -339,7 +339,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"16"
 				"weight"	"600"
 				"yres"	"768 1023"
@@ -347,7 +347,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"21"
 				"weight"	"600"
 				"yres"	"1024 1299"
@@ -355,7 +355,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"28"
 				"weight"	"600"
 				"yres"	"1300 1699"
@@ -363,7 +363,7 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"35"
 				"weight"	"600"
 				"yres"	"1700 1899"
@@ -371,7 +371,7 @@ Scheme
 			}
 			"7"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"42"
 				"weight"	"600"
 				"yres"	"1900 2499"
@@ -379,7 +379,7 @@ Scheme
 			}
 			"8"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"56"
 				"weight"	"600"
 				"yres"	"2500 2999"
@@ -387,7 +387,7 @@ Scheme
 			}
 			"9"
 			{
-				"name"		"Verdana"
+				"name"		"Blue Highway"
 				"tall"		"70"
 				"weight"	"600"
 				"yres"	"3000 10000"
@@ -479,7 +479,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Courier"
+				"name"		"Blue Highway"
 				"tall"		"14"
 				"weight"	"500"
 			}
@@ -976,6 +976,7 @@ Scheme
 		"10"		"resource/linux_fonts/LiberationMono-Regular.ttf"
 		"11"		"resource/linux_fonts/FiraSans-Regular.ttf"
 		"12"		"resource/linux_fonts/FiraSans-Medium.ttf"
-		"13"		"resource/handelgothic.ttf"
+		"13"		"resource/typeface/SLIDER.TTF"
+		"14"		"resource/typeface/BLUE_HIGHWAY_BOLD.OTF"
 	}
 }
