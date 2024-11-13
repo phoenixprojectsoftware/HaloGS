@@ -16,39 +16,39 @@ Scheme
 	Colors
 	{
 		// base colors
-		"BaseText"			"211 212 222 255"	// used in text windows, lists
-		"BrightBaseText"	"255 255 255 255"	// brightest text
-		"SelectedText"		"150 149 170 255"	// selected text
-		"DimBaseText"		"150 149 170 255"	// dim base text
-		"LabelDimText"		"149 149 170 255"	// used for info text
-		"ControlText"		"211 217 222 255"	// used in all text controls
-		"BrightControlText"	"210 210 212 255"	// use for selected controls
-		"DisabledText1"		"117 128 111 255"	// disabled text
-		"DisabledText2"		"40 46 34 255"		// overlay color for disabled text (to give that inset look)
-		"DimListText"		"117 134 102 255"	// offline friends, unsubscribed games, etc.
+		"BaseText"		"211 212 222 255"	// used in text windows, lists
+		"BrightBaseText"	"222 222 222 255"	// brightest text
+		"SelectedText"		"255 255 255 255"	// selected text
+		"DimBaseText"		"148 148 148 255"	// dim base text
+		"LabelDimText"		"159 164 169 255"	// used for info text
+		"ControlText"		"204 204 204 255"	// used in all text controls
+		"BrightControlText"	"40 148 254 255"	// use for selected controls
+		"DisabledText1"		"128 128 128 255"	// disabled text
+		"DisabledText2"		"64 64 64 255"		// overlay color for disabled text (to give that inset look)
+		"DimListText"		"128 128 128 255"	// offline friends, unsubscribed games, etc.
 
 		// background colors
 		"ControlBG"		"11 51 103 255"		// background color of controls
-		"ControlDarkBG"		"4 24 51 255"		// darker background color; used for background of scrollbars
-		"WindowBG"		"12 45 83 255"		// background color of text edit panes (chat, text entries, etc.)
-		"SelectionBG"		"49 99 149 255"		// background color of any selected text or menu item
-		"SelectionBG2"		"21 42 64 255"		// selection background in window w/o focus
-		"ListBG"		"12 45 83 255"		// background of server browser, buddy list, etc.
+		"ControlDarkBG"		"35 83 145 255"		// darker background color; used for background of scrollbars
+		"WindowBG"		"10 30 55 255"		// background color of text edit panes (chat, text entries, etc.)
+		"SelectionBG"		"39 146 250 255"	// background color of any selected text or menu item
+		"SelectionBG2"		"23 56 99 255"		// selection background in window w/o focus
+		"ListBG"		"10 30 55 255"		// background of server browser, buddy list, etc.
 
 		// titlebar colors
-		"TitleText"			"255 255 255 255"
-		"TitleDimText"		"136 145 128 255"
-		"TitleBG"			"11 51 103 255"
+		"TitleText"		"255 255 255 255"
+		"TitleDimText"		"128 128 128 255"
+		"TitleBG"		"11 51 103 255"
 		"TitleDimBG"		"11 51 103 255"
 		
 		// slider tick colors
-		"SliderTickColor"	"127 140 127 255"
+		"SliderTickColor"	"211 212 222 255"
 		"SliderTrackColor"	"31 31 31 255"
 
 		// border colors
-		"BorderBright"		"136 145 128 255"	// the lit side of a control
-		"BorderDark"		"40 46 34 255"		// the dark/unlit side of a control
-		"BorderSelection"	"0 0 0 255"			// the additional border color for displaying the default/selected button
+		"BorderBright"		"39 146 248 255"	// the lit side of a control
+		"BorderDark"		"29 108 186 255"	// the dark/unlit side of a control
+		"BorderSelection"	"0 0 0 255"		// the additional border color for displaying the default/selected button
 	}
 
 	///////////////////// BASE SETTINGS ////////////////////////
@@ -58,75 +58,75 @@ Scheme
 	{
 		"FgColor"			"ControlText"
 		"BgColor"			"ControlBG"
-		"LabelBgColor"		"ControlBG"
-		"SubPanelBgColor"	"ControlBG"
+		"LabelBgColor"			"ControlBG"
+		"SubPanelBgColor"		"ControlBG"
 
 		"DisabledFgColor1"		"DisabledText1" 
 		"DisabledFgColor2"		"DisabledText2"			// set this to the BgColor if you don't want it to draw
 
-		"TitleBarFgColor"			"TitleText"
+		"TitleBarFgColor"		"TitleText"
 		"TitleBarDisabledFgColor"	"TitleDimText"
-		"TitleBarBgColor"			"TitleBG"
+		"TitleBarBgColor"		"TitleBG"
 		"TitleBarDisabledBgColor"	"TitleDimBG"
 
-		"TitleBarIcon"				"resource/icon_steam"
+		"TitleBarIcon"			"resource/icon_steam"
 		"TitleBarDisabledIcon"		"resource/icon_steam_disabled"
 
-		"TitleButtonFgColor"			"BorderBright"
-		"TitleButtonBgColor"			"ControlBG"
+		"TitleButtonFgColor"		"BorderBright"
+		"TitleButtonBgColor"		"ControlBG"
 		"TitleButtonDisabledFgColor"	"TitleDimText"
 		"TitleButtonDisabledBgColor"	"TitleDimBG"
 
-		"TextCursorColor"			"BaseText"			// color of the blinking text cursor in text entries
-		"URLTextColor"				"BrightBaseText"	// color that URL's show up in chat window
+		"TextCursorColor"		"BaseText"			// color of the blinking text cursor in text entries
+		"URLTextColor"			"BrightBaseText"	// color that URL's show up in chat window
 
 		Menu
 		{
-			"FgColor"			"DimBaseText"
-			"BgColor"			"ControlBG"
+			"FgColor"		"DimBaseText"
+			"BgColor"		"ControlBG"
 			"ArmedFgColor"		"BrightBaseText"
 			"ArmedBgColor"		"SelectionBG"
 			"DividerColor"		"BorderDark"
 
-			"TextInset"			"6"
+			"TextInset"		"6"
 		}
 
 		MenuButton	  // the little arrow on the side of boxes that triggers drop down menus
 		{
 			"ButtonArrowColor"	"DimBaseText"		// color of arrows
-		   	"ButtonBgColor"		"WindowBG"			// bg color of button. same as background color of text edit panes 
+		   	"ButtonBgColor"		"WindowBG"		// bg color of button. same as background color of text edit panes 
 			"ArmedArrowColor"	"BrightBaseText"	// color of arrow when mouse is over button
 			"ArmedBgColor"		"DimBaseText"		// bg color of button when mouse is over button
 		}
 
 		Slider
 		{
-			"SliderFgColor"		"ControlBG"			// handle with which the slider is grabbed
+			"SliderFgColor"		"ControlBG"		// handle with which the slider is grabbed
 			"SliderBgColor"		"ControlDarkBG"		// area behind handle
 		}
 
 		ScrollBarSlider
 		{
-			"BgColor"					"ControlBG"		// this isn't really used
+			"BgColor"			"ControlBG"		// this isn't really used
 			"ScrollBarSliderFgColor"	"ControlBG"		// handle with which the slider is grabbed
-			"ScrollBarSliderBgColor"	"ControlDarkBG"	// area behind handle
-			"ButtonFgColor"				"DimBaseText"	// color of arrows
+			"ScrollBarSliderBgColor"	"ControlDarkBG"		// area behind handle
+			"ButtonFgColor"			"DimBaseText"		// color of arrows
 		}
 
 
 		// text edit windows
-		"WindowFgColor"				"BaseText"		// off-white
-		"WindowBgColor"				"WindowBG"		// redundant. can we get rid of WindowBgColor and just use WindowBG?
+		"WindowFgColor"			"BaseText"		// off-white
+		"WindowBgColor"			"WindowBG"		// redundant. can we get rid of WindowBgColor and just use WindowBG?
 		"WindowDisabledFgColor"		"DimBaseText"
 		"WindowDisabledBgColor"		"ListBG"		// background of chat conversation
-		"SelectionFgColor"			"SelectedText"	// fg color of selected text
-		"SelectionBgColor"			"SelectionBG"
+		"SelectionFgColor"		"SelectedText"		// fg color of selected text
+		"SelectionBgColor"		"SelectionBG"
 		"ListSelectionFgColor"		"SelectedText"
-		"ListBgColor"				"ListBG"		// background of server browser control, etc
-		"BuddyListBgColor"			"ListBG"		// background of buddy list pane
+		"ListBgColor"			"ListBG"		// background of server browser control, etc
+		"BuddyListBgColor"		"ListBG"		// background of buddy list pane
 		
 		// App-specific stuff
-		"ChatBgColor"				"WindowBG"
+		"ChatBgColor"			"WindowBG"
 
 		// status selection
 		"StatusSelectFgColor"		"BrightBaseText"
@@ -135,8 +135,8 @@ Scheme
 		// checkboxes
 		"CheckButtonBorder1"   		"BorderDark"		// the left checkbutton border
 		"CheckButtonBorder2"   		"BorderBright"		// the right checkbutton border
-		"CheckButtonCheck"			"BrightControlText"	// color of the check itself
-		"CheckBgColor"				"ListBG"
+		"CheckButtonCheck"		"BrightControlText"	// color of the check itself
+		"CheckBgColor"			"ListBG"
 
 		// buttons (default fg/bg colors are used if these are not set)
 //		"ButtonArmedFgColor"
@@ -147,38 +147,38 @@ Scheme
 		// buddy buttons
 		BuddyButton
 		{
-			"FgColor1"				"ControlText"
-			"FgColor2"				"DimListText"
-			"ArmedFgColor1"			"BrightBaseText"
-			"ArmedFgColor2"			"BrightBaseText"
-			"ArmedBgColor"			"SelectionBG"
+			"FgColor1"		"ControlText"
+			"FgColor2"		"DimListText"
+			"ArmedFgColor1"		"BrightBaseText"
+			"ArmedFgColor2"		"BrightBaseText"
+			"ArmedBgColor"		"SelectionBG"
 		}
 
 		Chat
 		{
-			"TextColor"				"BrightControlText"
-			"SelfTextColor"			"BaseText"
+			"TextColor"		"BrightControlText"
+			"SelfTextColor"		"BaseText"
 			"SeperatorTextColor"	"DimBaseText"
 		}
 
 		InGameDesktop
 		{
-			"MenuColor"					"26 81 127 155"
-			"ArmedMenuColor"			"255 255 255 255"
-			"BlurMenuColor"				"33 91 153 255"
+			"MenuColor"			"57 108 155 155"
+			"ArmedMenuColor"		"246 249 252 255"
+			"BlurMenuColor"			"57 108 155 255"
 			"DepressedMenuColor" 		"16 16 16 255"
-			"MenuHintColor"				"104 104 104 255"
+			"MenuHintColor"			"104 104 104 255"
 			"WidescreenBarColor" 		"0 0 0 0"
-			"MenuItemVisibilityRate"	"0.02"  // time it takes for one menu item to appear
-			"MenuItemHeight"			"48" // this is proportional to resolution
-			"GameMenuInset"				"110"
+			"MenuItemVisibilityRate"	"0.02"  	// time it takes for one menu item to appear
+			"MenuItemHeight"		"48" 		// this is proportional to resolution
+			"GameMenuInset"			"110"
 		}
 
-		"SectionTextColor"		"BrightControlText"	// text color for IN-GAME, ONLINE, OFFLINE sections of buddy list
+		"SectionTextColor"	"BrightControlText"	// text color for IN-GAME, ONLINE, OFFLINE sections of buddy list
 		"SectionDividerColor"	"BorderDark"		// color of line that runs under section name in buddy list
 		
-		"ProportionalBaseWidth" "640"		// if the display resolution is above this,
-		"ProportionalBaseHeight" "480"		//  ui elements will be scaled.
+		"ProportionalBaseWidth" "640"			// if the display resolution is above this,
+		"ProportionalBaseHeight" "480"			//  ui elements will be scaled.
 		"ProportionalBaseWidthHD" "1280"		
 		"ProportionalBaseHeightHD" "720"		
 	}
@@ -199,6 +199,7 @@ Scheme
 				"name"		"Blue Highway"
 				"tall"		"16"
 				"weight"	"0"
+				"antialias"	"1"
 			}
 		}
 		"DefaultBold"
@@ -208,6 +209,7 @@ Scheme
 				"name"		"Blue Highway"
 				"tall"		"16"
 				"weight"	"500"
+				"antialias"	"1"
 			}
 		}
 		"DefaultUnderline"
@@ -217,7 +219,8 @@ Scheme
 				"name"		"Blue Highway"
 				"tall"		"16"
 				"weight"	"0"
-				"underline" "1"
+				"underline" 	"1"
+				"antialias"	"1"
 			}
 		}
 		"DefaultSmall"
@@ -227,6 +230,7 @@ Scheme
 				"name"		"Blue Highway"
 				"tall"		"13"
 				"weight"	"0"
+				"antialias"	"1"
 			}
 		}
 		"DefaultSmallBold"
@@ -236,6 +240,7 @@ Scheme
 				"name"		"Blue Highway"
 				"tall"		"12"
 				"weight"	"600"
+				"antialias"	"1"
 			}
 		}
 		"DefaultVerySmall"
@@ -245,6 +250,7 @@ Scheme
 				"name"		"Blue Highway"
 				"tall"		"12"
 				"weight"	"0"
+				"antialias"	"1"
 			}
 		}
 		"MenuLarge"
@@ -268,7 +274,7 @@ Scheme
 				"weight"	"800"
 				"dropshadow" "0"
 				"antialias"	"0"
-				"blur" "10"
+				"blur" "2"
 				"additive" "1"
 			}
 		}
