@@ -1,8 +1,10 @@
 .vs/
 .DS_Store
+*.ztmp
 config.cfg
-settings.scr
 tempdecal.wad
 models/player/remapped.bmp
+logos/remapped.bmp
 demoheader.dmf
-*.ztmp
+custom.hpk
+voice_ban.dt
