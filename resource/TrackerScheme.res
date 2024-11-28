@@ -16,38 +16,38 @@ Scheme
 	Colors
 	{
 		// base colors
-		"BaseText"		"211 212 222 255"	// used in text windows, lists
-		"BrightBaseText"	"222 222 222 255"	// brightest text
+		"BaseText"		"255 255 255 255"	// used in text windows, lists
+		"BrightBaseText"	"255 255 255 255"	// brightest text
 		"SelectedText"		"255 255 255 255"	// selected text
-		"DimBaseText"		"148 148 148 255"	// dim base text
-		"LabelDimText"		"159 164 169 255"	// used for info text
-		"ControlText"		"204 204 204 255"	// used in all text controls
-		"BrightControlText"	"40 148 254 255"	// use for selected controls
-		"DisabledText1"		"64 64 64 255"		// disabled text
-		"DisabledText2"		"32 32 32 255"		// overlay color for disabled text (to give that inset look)
+		"DimBaseText"		"174 174 176 255"	// dim base text
+		"LabelDimText"		"174 174 176 255"	// used for info text
+		"ControlText"		"174 174 176 255"	// used in all text controls
+		"BrightControlText"	"41 150 255 255"	// use for selected controls
+		"DisabledText1"		"1 13 32 255"		// disabled text
+		"DisabledText2"		"66 74 87 255"		// overlay color for disabled text (to give that inset look)
 		"DimListText"		"128 128 128 255"	// offline friends, unsubscribed games, etc.
 
 		// background colors
 		"ControlBG"		"11 51 103 255"		// background color of controls
 		"ControlDarkBG"		"35 83 145 255"		// darker background color; used for background of scrollbars
-		"WindowBG"		"10 30 55 255"		// background color of text edit panes (chat, text entries, etc.)
+		"WindowBG"		"1 13 45 255"		// background color of text edit panes (chat, text entries, etc.)
 		"SelectionBG"		"39 146 250 255"	// background color of any selected text or menu item
 		"SelectionBG2"		"23 56 99 255"		// selection background in window w/o focus
-		"ListBG"		"10 30 55 255"		// background of server browser, buddy list, etc.
+		"ListBG"		"1 13 45 255"		// background of server browser, buddy list, etc.
 
 		// titlebar colors
 		"TitleText"		"255 255 255 255"
-		"TitleDimText"		"89 89 89 255"
+		"TitleDimText"		"66 74 87 255"
 		"TitleBG"		"11 51 103 255"
 		"TitleDimBG"		"11 51 103 255"
 		
 		// slider tick colors
 		"SliderTickColor"	"211 212 222 255"
-		"SliderTrackColor"	"31 31 31 255"
+		"SliderTrackColor"	"0 6 42 255"
 
 		// border colors
 		"BorderBright"		"39 146 248 255"	// the lit side of a control
-		"BorderDark"		"29 108 186 255"	// the dark/unlit side of a control
+		"BorderDark"		"39 146 248 255"	// the dark/unlit side of a control
 		"BorderSelection"	"0 0 0 255"		// the additional border color for displaying the default/selected button
 	}
 
