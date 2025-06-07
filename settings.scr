@@ -32,7 +32,7 @@
 
 
 // Half-Life Server Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Fri Dec  6 12:55:28 AM
+// File generated:  Sat Jun  7 12:46:16 AM
 //
 //
 // Cvar	-	Setting
@@ -45,7 +45,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Valve_Hostname"
 		{ STRING }
-		{ "hiphopparappa's Server" }
+		{ "Ry13y04's Server" }
 	}
 
 	"maxplayers"
@@ -73,14 +73,14 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Valve_Frag_Limit"
 		{ NUMBER 0.000000 -1.000000 }
-		{ "100.000000" }
+		{ "50.000000" }
 	}
 
 	"mp_timelimit"
 	{
 		"#Valve_Time_Limit"
 		{ NUMBER 0.000000 -1.000000 }
-		{ "45.000000" }
+		{ "20.000000" }
 	}
 
 	"mp_teamplay"
@@ -109,6 +109,13 @@ DESCRIPTION SERVER_OPTIONS
 		"#Valve_Force_Respawn"
 		{ BOOL }
 		{ "0" }
+	}
+
+	"sv_aura_regeneration"
+	{
+		"#HaloGS_SuitRegen"
+		{ BOOL }
+		{ "1" }
 	}
 
 }
