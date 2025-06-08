@@ -32,7 +32,7 @@
 
 
 // Half-Life Server Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Mon Jun  9 12:13:20 AM
+// File generated:  Sun Jun  8 11:53:22 PM
 //
 //
 // Cvar	-	Setting
@@ -45,7 +45,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Valve_Hostname"
 		{ STRING }
-		{ "Homer's Server" }
+		{ "Ry13y04's Server" }
 	}
 
 	"maxplayers"
@@ -109,6 +109,13 @@ DESCRIPTION SERVER_OPTIONS
 		"#Valve_Force_Respawn"
 		{ BOOL }
 		{ "0" }
+	}
+
+	"mp_flashlight"
+	{
+		"#Valve_Flashlight"
+		{ BOOL }
+		{ "1" }
 	}
 
 	"sv_aura_regeneration"
