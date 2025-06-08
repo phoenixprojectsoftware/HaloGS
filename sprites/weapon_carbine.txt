@@ -13,8 +13,8 @@ ammo			1280 1280/weapon_9mmar_ammo	0	0	48	48
 ammo2			1280 1280/weapon_9mmar_ammo2	0	0	48	48
 crosshair		1280 1280crosshairs	0	96	48	48
 autoaim			1280 1280crosshairs	96	144	48	48
-weapon			640 640hud1	0	135	170	45
-weapon_s		640 640hud4	0	135	170	45
+weapon			640 640hudof03	0	90	170	45
+weapon_s		640 640hudof04	0	90	170	45
 ammo			640 640hud7	0	72	24	24
 ammo2			640 640hud7	48	72	24	24
 crosshair		640 crosshairs	0	48	24	24
