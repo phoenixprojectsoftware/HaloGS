@@ -32,7 +32,7 @@
 
 
 // Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Wed Nov  6 22:38:21 AM
+// File generated:  Mon Jun  9 15:10:33 AM
 //
 //
 // Cvar	-	Setting
@@ -59,7 +59,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#HaloGS_Fov"
 		{ NUMBER 20.000000 150.000000 }
-		{ "110.000000" }
+		{ "90.000000" }
 	}
 
 	"cl_autowepswitch"
