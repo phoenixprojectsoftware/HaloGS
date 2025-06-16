@@ -1,4 +1,4 @@
-game "Halo GoldSrc"
+game "Halo: GoldSource"
 gamedir "halogs"
 startmap "fire_range"
 trainmap "fire_range"
