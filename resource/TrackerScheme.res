@@ -473,8 +473,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Blue Highway"
-				"tall"		"60"
+				"name"		"Trebuchet MS"
+				"tall"		"20"
 				"weight"	"700"
 				"antialias"	"1"
 				"yres"	"1 10000"
