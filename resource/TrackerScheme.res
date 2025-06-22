@@ -405,7 +405,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"Blue Highway"
 				"tall"		"16"
 				"weight"	"700"
 				"antialias"	"1"
@@ -413,7 +413,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"Blue Highway"
 				"tall"		"20"
 				"weight"	"700"
 				"antialias"	"1"
@@ -421,7 +421,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"Blue Highway"
 				"tall"		"30"
 				"weight"	"700"
 				"antialias"	"1"
@@ -429,7 +429,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"Blue Highway"
 				"tall"		"40"
 				"weight"	"700"
 				"antialias"	"1"
@@ -437,7 +437,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"Blue Highway"
 				"tall"		"50"
 				"weight"	"700"
 				"antialias"	"1"
@@ -445,7 +445,7 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"Blue Highway"
 				"tall"		"60"
 				"weight"	"700"
 				"antialias"	"1"
@@ -453,7 +453,7 @@ Scheme
 			}
 			"7"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"Blue Highway"
 				"tall"		"80"
 				"weight"	"700"
 				"antialias"	"1"
@@ -461,7 +461,7 @@ Scheme
 			}
 			"8"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"Blue Highway"
 				"tall"		"100"
 				"weight"	"700"
 				"antialias"	"1"
@@ -473,8 +473,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
-				"tall"		"20"
+				"name"		"Blue Highway"
+				"tall"		"40"
 				"weight"	"700"
 				"antialias"	"1"
 				"yres"	"1 10000"
