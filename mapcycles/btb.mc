@@ -1,0 +1,13 @@
+Blimpboom
+Compound
+Bounce
+Doublecross
+Gasworks
+Kasino
+Duff
+Lambda_Bunker
+Rocket_Frenzy
+Contamination
+Demise
+Forsaken
+Omen

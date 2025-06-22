@@ -1,0 +1,11 @@
+Duff
+Forsaken
+Gauntlet
+Omen
+2Fort
+Crossfire
+Doublefort
+Doublecross
+Kasino
+Datacore
+Stalkyard
