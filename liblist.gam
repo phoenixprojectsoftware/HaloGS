@@ -9,3 +9,4 @@ icon "game"
 client "1"
 type "multiplayer_only"
 mpfilter "fire_range"
+fallback_dir "zamnhlmp
