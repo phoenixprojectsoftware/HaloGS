@@ -6,6 +6,22 @@ All rights reserved to their original owners.
 <a href="https://www.moddb.com/mods/halo-goldsrc" title="View Halo: GoldSource on ModDB"><img src="https://button.moddb.com/popularity/medium/mods/64076.png" alt="Halo: GoldSource"></a>
 
 # Credits
+## The Phoenix Project Software
+```
+!!!! THE PHOENIX PROJECT SOFTWARE !!!!
+!!!! HALO GS TEAM !!!!!
+Sabian Roberts - project lead
+Ry13y04 - UX lead
+
+Marianoa213 - level designer
+NoahAllen522 - level designer
+
+!!!! SPECIAL THANKS TO !!!!
+Kevdoy
+Seal Zebra
+```
+
+## Original Creators
 ```
 -CODING, PROJECT MANAGEMENT, ASSETS, ETC.-
 Seal Zebra (SourceLuigi)
