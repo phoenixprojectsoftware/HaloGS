@@ -1,0 +1,47 @@
+resolution	1920	1080
+
+resource/background/xmt_1_a_loading.tga	fit	0	0
+resource/background/xmt_1_b_loading.tga	fit	256	0
+resource/background/xmt_1_c_loading.tga	fit	512	0
+resource/background/xmt_1_d_loading.tga	fit	768	0
+resource/background/xmt_1_e_loading.tga	fit	1024	0
+resource/background/xmt_1_f_loading.tga	fit	1280	0
+resource/background/xmt_1_g_loading.tga	fit	1536	0
+resource/background/xmt_1_h_loading.tga	fit	1792	0
+
+resource/background/xmt_2_a_loading.tga	fit	0	256
+resource/background/xmt_2_b_loading.tga	fit	256	256
+resource/background/xmt_2_c_loading.tga	fit	512	256
+resource/background/xmt_2_d_loading.tga	fit	768	256
+resource/background/xmt_2_e_loading.tga	fit	1024	256
+resource/background/xmt_2_f_loading.tga	fit	1280	256
+resource/background/xmt_2_g_loading.tga	fit	1536	256
+resource/background/xmt_2_h_loading.tga	fit	1792	256
+
+resource/background/xmt_3_a_loading.tga	fit	0	512
+resource/background/xmt_3_b_loading.tga	fit	256	512
+resource/background/xmt_3_c_loading.tga	fit	512	512
+resource/background/xmt_3_d_loading.tga	fit	768	512
+resource/background/xmt_3_e_loading.tga	fit	1024	512
+resource/background/xmt_3_f_loading.tga	fit	1280	512
+resource/background/xmt_3_g_loading.tga	fit	1536	512
+resource/background/xmt_3_h_loading.tga	fit	1792	512
+
+resource/background/xmt_4_a_loading.tga	fit	0	768
+resource/background/xmt_4_b_loading.tga	fit	256	768
+resource/background/xmt_4_c_loading.tga	fit	512	768
+resource/background/xmt_4_d_loading.tga	fit	768	768
+resource/background/xmt_4_e_loading.tga	fit	1024	768
+resource/background/xmt_4_f_loading.tga	fit	1280	768
+resource/background/xmt_4_g_loading.tga	fit	1536	768
+resource/background/xmt_4_h_loading.tga	fit	1792	768
+
+resource/background/xmt_5_a_loading.tga	fit	0	1024
+resource/background/xmt_5_b_loading.tga	fit	256	1024
+resource/background/xmt_5_c_loading.tga	fit	512	1024
+resource/background/xmt_5_d_loading.tga	fit	768	1024
+resource/background/xmt_5_e_loading.tga	fit	1024	1024
+resource/background/xmt_5_f_loading.tga	fit	1280	1024
+resource/background/xmt_5_g_loading.tga	fit	1536	1024
+resource/background/xmt_5_h_loading.tga	fit	1792	1024
+
