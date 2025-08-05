@@ -32,7 +32,7 @@
 
 
 // Half-Life Server Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Thu Jun 26 03:22:41 PM
+// File generated:  Tue Aug  5 09:15:25 PM
 //
 //
 // Cvar	-	Setting
@@ -52,7 +52,14 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Valve_Max_Players"
 		{ NUMBER 1.000000 32.000000 }
-		{ "24.000000" }
+		{ "12.000000" }
+	}
+
+	"mapcyclefile"
+	{
+		"#Phoenix_Mapcycle"
+		{ STRING }
+		{ "default" }
 	}
 
 	"sv_password"
@@ -62,11 +69,30 @@ DESCRIPTION SERVER_OPTIONS
 		{ "" }
 	}
 
-	"mp_teamlist"
+	"sv_aura_gamemode"
 	{
-		"#Valve_Valid_Teams"
+		"#Phoenix_Gamemode"
 		{ STRING }
-		{ "blue;red;" }
+		{ "ffa" }
+	}
+
+	"sv_aura_gamemode_auto"
+	{
+		"#Phoenix_AutoGamemode"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"ag_spawn_system"
+	{
+		"#Phoenix_SpawnSys"
+		{
+			LIST
+			"#Phoenix_SpawnSys_Sequential" "0"
+			"#Phoenix_SpawnSys_Random" "1"
+			"#Phoenix_SpawnSys_Far" "2"
+		}
+		{ "0.000000" }
 	}
 
 	"mp_fraglimit"
@@ -80,7 +106,14 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Valve_Time_Limit"
 		{ NUMBER 0.000000 -1.000000 }
-		{ "20.000000" }
+		{ "15.000000" }
+	}
+
+	"mp_intermission_time"
+	{
+		"#Phoenix_IntermissionTime"
+		{ STRING }
+		{ "15" }
 	}
 
 	"mp_falldamage"
@@ -94,11 +127,16 @@ DESCRIPTION SERVER_OPTIONS
 		{ "0.000000" }
 	}
 
-	"mp_teamplay"
+	"sv_aura_infinite_ammo"
 	{
-		"#Valve_Teamplay"
-		{ BOOL }
-		{ "0" }
+		"#Phoenix_InfiniteAmmo"
+		{
+			LIST
+			"#Phoenix_Off" "0"
+			"#Phoenix_InfAmmo_Bottom" "1"
+			"#Phoenix_InfAmmo_Reserve" "2"
+		}
+		{ "0.000000" }
 	}
 
 	"mp_friendlyfire"
@@ -122,6 +160,13 @@ DESCRIPTION SERVER_OPTIONS
 		{ "1" }
 	}
 
+	"mp_footsteps"
+	{
+		"#Valve_Footsteps"
+		{ BOOL }
+		{ "1" }
+	}
+
 	"mp_flashlight"
 	{
 		"#Valve_Flashlight"
@@ -129,9 +174,16 @@ DESCRIPTION SERVER_OPTIONS
 		{ "1" }
 	}
 
-	"sv_aura_regeneration"
+	"sv_cheats"
 	{
-		"#HaloGS_SuitRegen"
+		"#Phoenix_Cheats"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"sv_lan"
+	{
+		"#Phoenix_LANServer"
 		{ BOOL }
 		{ "1" }
 	}
