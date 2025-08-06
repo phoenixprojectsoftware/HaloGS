@@ -1,0 +1,131 @@
+// Command Menu definition
+//
+// Basic Format:
+//		"<Bound Key>" "<Button Text>" "<Command sent to server>"
+//
+// Or you can check for a specific map:
+//		MAP <MapName> "<BoundKey>" "<Button Text>" "<Command sent to server>"
+// Where <MapName> is the name of the map, without the ".bsp".
+//
+// Or you can check for a specific team:
+//		TEAM1 "<BoundKey>" "<Button Text>" "<Command sent to server>"
+//		TEAM2 "<BoundKey>" "<Button Text>" "<Command sent to server>"
+// TEAM3, TEAM4 work as well
+//
+// Buttons can also open up submenus, as follows:
+// {
+// 	"Some More Options",
+//	{
+//		...
+//	}
+// }
+//
+//
+// Buttons preceded with "CUSTOM" are handled in special ways. They can only be moved
+// around or deleted.
+//
+//
+// Limitations:
+//		Maximum of 40 menus.
+//		Maximum of 100 buttons per menu.
+
+//--------------------------------------------------------
+// Everything below here is editable
+
+"1" "Settings"
+{
+	"0" "Help"
+	{
+		"1" "Console help"	"help;toggleconsole"
+		"2" "Aura version"	"version_aura;toggleconsole"
+	}
+	"1" "Timer"
+	{
+		"1" "Remaining"		"hud_timer 1"
+		"2" "Elapsed"		"hud_timer 2"
+		"0" "Off"		"hud_timer 0"
+	}
+	"2" "Mini Scoreboard"
+	{
+		"1" "2 players/teams"	"cl_scores 2"
+		"2" "4 players/teams"	"cl_scores 4"
+		"0" "Off"		"cl_scores 0"
+	}
+	"3" "Old Scoreboard"
+	{
+		"1" "On"		"cl_old_scoreboard 1"
+		"2" "Off"		"cl_old_scoreboard 0"
+	}
+	"4" "Viewmodel"
+	{
+		"1" "On"		"r_drawviewmodel 1;hud_weapon 0"
+		"2" "Off"		"r_drawviewmodel 0;hud_weapon 1"
+	}
+	"5" "Speedometer"
+	{
+		"1" "On"		"hud_speedometer 1"
+		"2" "Off"		"hud_speedometer 0"
+	}
+	"6" "Jumpspeed"
+	{
+		"1" "On"		"hud_jumpspeed 1"
+		"2" "Off"		"hud_jumpspeed 0"
+	}
+	"7" "Net Graph"
+	{
+		"1" "On"		"net_graph 3"
+		"2" "Off"		"net_graph 0"
+	}
+	"8" "Show FPS"
+	{
+		"1" "On"		"cl_showfps 1"
+		"2" "Off"		"cl_showfps 0"
+	}
+}
+
+"2" "Match & Voting"
+{
+	"1" "Vote Yes" 		"yes"
+	"2" "Vote No" 		"no"
+	"3" "Ready"		"ready"
+	"4" "Not Ready"		"notready"
+	"5" "Start Match" 	"agstart"
+	"6" "Start Match Full" 	"agstart full"
+	"7" "Abort Match"	"agabort"
+	"8" "Call Timeout" 	"timeout"
+	"9" "Extend Timer" 	"agmoretime"
+	"0" "Server Settings" 	"settings"
+}
+
+"3" "Gamemodes"
+{
+	"1" "Standard Modes"
+	{
+		"1" "Slayer"		"slayer"
+		"2" "Snipers"		"snipers"
+		"3" "SWAT"		"swat"
+		"4" "Fiesta"		"fiesta"
+		"5" "Firefight"		"firefight"
+		"6" "Fiestafight"	"fiestafight"
+	}
+	"2" "Team Modes"
+	{
+		"1" "Capture the Flag"	"ctf"
+		"2" "CTF Rounds"	"ctf2"
+		"3" "Domination"	"dom"
+		"4" "Team Slayer"	"tslayer"
+		"5" "Team Snipers"	"tsnipers"
+		"6" "Team SWAT"		"tswat"
+	}
+	"3" "Custom..." "messagemode sv_aura_gamemode"
+}
+
+"4" "Change team"	"changeteam"
+
+"5" "Spectate"		"spectate"
+
+"6" "Drop flag" 	"dropitems"
+
+"7" "Countdown timer"	"messagemode customtimer"
+
+"0" "Close"		"spec_menu 0"
