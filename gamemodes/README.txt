@@ -1,6 +1,16 @@
-Here are the gamemode configuration files.
-Please don't change any of this, it will confuse your players if you do.
-Feel free to add your own gamemode - just copy paste from one of the existing ones.
-The first line specifies the gamemode name that should be displayed in the server browser and in the splash with server settings data in-game.
-The second line is help text displayed when someone types 'help' in console.
-Except for 'ctf2', gamemode configs ending with a 2 are their Season 5 variants, which lack the Opposing Force weaponry.
+===== GAMEMODE CONFIGURATIONS =====
+This folder contains all the gamemode configuration files 
+that can be used in Halo: GoldSource. It is recommended that you 
+do NOT modify any of the existing gamemodes here, as doing 
+so can potentally confuse players. Simply duplicate one of 
+the configs and modify it to your will.
+
+
+===== HELP TEXT =====
+The first line in every file sets the name of the gamemode,
+and is displayed in both the Server Browser and the in-game
+Settings Watermark.
+
+The second line is subtle help text describing the gamemode,
+and is displayed whenever a user types the 'help' command
+into the in-game console.

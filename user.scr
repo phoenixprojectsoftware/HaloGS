@@ -32,7 +32,7 @@
 
 
 // Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Wed Nov  6 22:38:21 AM
+// File generated:  Wed Aug  6 16:19:49 AM
 //
 //
 // Cvar	-	Setting
@@ -50,23 +50,37 @@ DESCRIPTION INFO_OPTIONS
 
 	"zoom_sensitivity_ratio"
 	{
-		"#HaloGS_ZoomSens"
+		"#Phoenix_ZoomSens"
 		{ NUMBER 0.000000 4096.000000 }
 		{ "1.200000" }
 	}
 
+	"steam_vibrate_enabled"
+	{
+		"#Phoenix_Vibration"
+		{ BOOL }
+		{ "1" }
+	}
+
 	"default_fov"
 	{
-		"#HaloGS_Fov"
+		"#Phoenix_Fov"
 		{ NUMBER 20.000000 150.000000 }
-		{ "110.000000" }
+		{ "90.000000" }
+	}
+
+	"hud_watermark"
+	{
+		"#Phoenix_Watermark"
+		{ BOOL }
+		{ "1" }
 	}
 
 	"cl_autowepswitch"
 	{
-		"#HaloGS_AutoSwitch"
+		"#Phoenix_AutoSwitch"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"hud_takesshots"
@@ -76,10 +90,268 @@ DESCRIPTION INFO_OPTIONS
 		{ "0" }
 	}
 
+	"hud_playerid"
+	{
+		"#Phoenix_PlayerID"
+		{ BOOL }
+		{ "1" }
+	}
+
 	"hud_centerid"
 	{
 		"#Valve_Center_Player_Names"
 		{ BOOL }
+		{ "1" }
+	}
+
+	"hud_nametags"
+	{
+		"#Phoenix_NameTags"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"cl_hidecorpses"
+	{
+		"#Phoenix_HideCorpses"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"hud_saytext_sound_path"
+	{
+		"#Phoenix_ChatSoundPath"
+		{ STRING }
+		{ "misc/talk.wav" }
+	}
+
+	"cl_killsound_path"
+	{
+		"#Phoenix_KillSoundPath"
+		{ STRING }
+		{ "buttons/bell1.wav" }
+	}
+
+	"hud_saytext_sound"
+	{
+		"#Phoenix_ChatSound"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"cl_killsound"
+	{
+		"#Phoenix_KillSound"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"hud_timer"
+	{
+		"#Phoenix_Timer"
+		{
+			LIST
+			"#Phoenix_TimeOff" "0"
+			"#Phoenix_TimeLeft" "1"
+			"#Phoenix_TimeElapsed" "2"
+		}
+		{ "1.000000" }
+	}
+
+	"cl_old_scoreboard"
+	{
+		"#Phoenix_ScoreboardLook"
+		{
+			LIST
+			"#Phoenix_NewScore" "0"
+			"#Phoenix_OldScore" "1"
+		}
+		{ "0.000000" }
+	}
+
+	"cl_scores"
+	{
+		"#Phoenix_MiniScores"
+		{ NUMBER 0.000000 35.000000 }
+		{ "2.000000" }
+	}
+
+	"cl_viewmodel_lag_enabled"
+	{
+		"#Phoenix_ViewmodelLag"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"cl_viewmodel_ofs_forward"
+	{
+		"#Phoenix_OfsForward"
+		{ STRING }
+		{ "0" }
+	}
+
+	"cl_viewmodel_ofs_right"
+	{
+		"#Phoenix_OfsRight"
+		{ STRING }
+		{ "3" }
+	}
+
+	"cl_viewmodel_ofs_up"
+	{
+		"#Phoenix_OfsUp"
+		{ STRING }
+		{ "-2" }
+	}
+
+	"cl_righthand"
+	{
+		"#Phoenix_HandAlign"
+		{
+			LIST
+			"#Phoenix_RightHand" "0"
+			"#Phoenix_LeftHand" "1"
+		}
+		{ "0.000000" }
+	}
+
+	"hud_speedometer"
+	{
+		"#Phoenix_Speedometer"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"hud_jumpspeed"
+	{
+		"#Phoenix_Jumpspeed"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"hud_color"
+	{
+		"#Phoenix_HudColor"
+		{ STRING }
+		{ "0" }
+	}
+
+	"hud_rainbow"
+	{
+		"#Phoenix_RainbowHud"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"cl_crowbar_punch_enabled"
+	{
+		"#Phoenix_CroPu"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"cl_cross"
+	{
+		"#Phoenix_CustomCross"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"crosshair"
+	{
+		"#Phoenix_Crosshair"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"cl_cross_size"
+	{
+		"#Phoenix_CustomCross_Size"
+		{ STRING }
+		{ "10" }
+	}
+
+	"cl_cross_thickness"
+	{
+		"#Phoenix_CustomCross_Thickness"
+		{ STRING }
+		{ "2" }
+	}
+
+	"cl_cross_alpha"
+	{
+		"#Phoenix_CustomCross_Alpha"
+		{ STRING }
+		{ "200" }
+	}
+
+	"cl_cross_color"
+	{
+		"#Phoenix_CustomCross_Color"
+		{ STRING }
+		{ "0 255 0" }
+	}
+
+	"cl_cross_gap"
+	{
+		"#Phoenix_CustomCross_Gap"
+		{ STRING }
+		{ "3" }
+	}
+
+	"cl_cross_outline"
+	{
+		"#Phoenix_CustomCross_Outline"
+		{ STRING }
+		{ "0" }
+	}
+
+	"cl_cross_dot_size"
+	{
+		"#Phoenix_CustomCross_DotSize"
+		{ STRING }
+		{ "0" }
+	}
+
+	"cl_cross_dot_color"
+	{
+		"#Phoenix_CustomCross_DotColor"
+		{ STRING }
+		{ "0 255 0" }
+	}
+
+	"cl_cross_top_line"
+	{
+		"#Phoenix_CustomCross_TopLine"
+		{ STRING }
+		{ "1" }
+	}
+
+	"cl_cross_bottom_line"
+	{
+		"#Phoenix_CustomCross_BottomLine"
+		{ STRING }
+		{ "1" }
+	}
+
+	"cl_cross_left_line"
+	{
+		"#Phoenix_CustomCross_LeftLine"
+		{ STRING }
+		{ "1" }
+	}
+
+	"cl_cross_right_line"
+	{
+		"#Phoenix_CustomCross_RightLine"
+		{ STRING }
+		{ "1" }
+	}
+
+	"cl_cross_circle_radius"
+	{
+		"#Phoenix_CustomCross_Circle"
+		{ STRING }
 		{ "0" }
 	}
 

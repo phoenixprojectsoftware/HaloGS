@@ -17,6 +17,7 @@
 		"label" "PLAYERS"
 		"command" "OpenPlayerListDialog"
 		"OnlyInGame" "1"
+		"NotSingle" "1"
 	}
 	"4"
 	{
@@ -29,12 +30,14 @@
 		"label" "CUSTOM GAME"
 		"command" "OpenCreateMultiplayerGameDialog"
 		"HelpText" "Create your own game."
+		"NotSingle" "1"
 	}
-		"6"
+	"6"
 	{
 		"label" "FIRING RANGE"
-		"command" "engine map fire_range"
+		"command" "engine map fire_range/fire_range"
 		"NotMulti" "1"
+		"NotSingle" "1"
 		"HelpText" "Practice your skill or try out the weapons."
 	}
 	"7"
@@ -47,6 +50,6 @@
 	{
 		"label" "QUIT"
 		"command" "Quit"
-		"HelpText" "Leave HaloGS."
+		"HelpText" "Leave Halo: GoldSource."
 	}
 }
