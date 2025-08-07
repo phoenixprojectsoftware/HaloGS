@@ -1,0 +1,21 @@
+20
+weapon			2560 2560/weapon_shotgun_weapon	0	0	510	135
+weapon_s		2560 2560/weapon_shotgun_weapon_s	0	0	510	135
+ammo			2560 2560/weapon_shotgun_ammo	0	0	72	72
+crosshair		2560 2560crosshairs	216	144	72	72
+autoaim			2560 2560crosshairs	216	144	72	72
+weapon			1280 1280/weapon_shotgun_weapon	0	0	340	90
+weapon_s		1280 1280/weapon_shotgun_weapon_s	0	0	340	90
+ammo			1280 1280/weapon_shotgun_ammo	0	0	48	48
+crosshair		1280 1280crosshairs	144	96	48	48
+autoaim			1280 1280crosshairs	144	96	48	48
+weapon			640 640hud1	0	180	170	45
+weapon_s		640 640hud4	0	180	170	45
+ammo			640 640hud7	72	72	24	24
+crosshair		640 crosshairs	72	48	24	24
+autoaim			640 crosshairs	72	48	24	24
+weapon			320 320hud1	0	160	80	20
+weapon_s		320 320hud1	0	180	80	20
+ammo			320 320hud2	54	16	18	18
+crosshair		320 crosshairs	72	48	24	24
+autoaim			320 crosshairs	72	48	24	24
