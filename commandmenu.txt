@@ -104,9 +104,10 @@
 		"1" "Slayer"		"slayer"
 		"2" "Snipers"		"snipers"
 		"3" "SWAT"		"swat"
-		"4" "Fiesta"		"fiesta"
-		"5" "Firefight"		"firefight"
-		"6" "Fiestafight"	"fiestafight"
+		"4" "Swords"		"swords"
+		"5" "Fiesta"		"fiesta"
+		"6" "Firefight"		"firefight"
+		"7" "Fiestafight"	"fiestafight"
 	}
 	"2" "Team Modes"
 	{
