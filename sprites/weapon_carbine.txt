@@ -1,16 +1,16 @@
 // mp5
 
 24	// number of sprites
-weapon			2560 2560/weapon_9mmar_weapon	0	0	510	135
-weapon_s		2560 2560/weapon_9mmar_weapon_s	0	0	510	135
-ammo			2560 2560/weapon_9mmar_ammo	0	0	72	72
-ammo2			2560 2560/weapon_9mmar_ammo2	0	0	72	72
+weapon			2560 2560/weapon_carbine_weapon	0	0	510	135
+weapon_s		2560 2560/weapon_carbine_weapon_s	0	0	510	135
+ammo			2560 2560/weapon_carbine_ammo	0	0	72	72
+ammo2			2560 2560/weapon_carbine_ammo2	0	0	72	72
 crosshair		2560 2560crosshairs	0	144	72	72
 autoaim			2560 2560crosshairs	144	216	72	72
-weapon			1280 1280/weapon_9mmar_weapon	0	0	340	90
-weapon_s		1280 1280/weapon_9mmar_weapon_s	0	0	340	90
-ammo			1280 1280/weapon_9mmar_ammo	0	0	48	48
-ammo2			1280 1280/weapon_9mmar_ammo2	0	0	48	48
+weapon			1280 1280/weapon_carbine_weapon	0	0	340	90
+weapon_s		1280 1280/weapon_carbine_weapon_s	0	0	340	90
+ammo			1280 1280/weapon_carbine_ammo	0	0	48	48
+ammo2			1280 1280/weapon_carbine_ammo2	0	0	48	48
 crosshair		1280 1280crosshairs	0	96	48	48
 autoaim			1280 1280crosshairs	96	144	48	48
 weapon			640 640hudof03	0	90	170	45

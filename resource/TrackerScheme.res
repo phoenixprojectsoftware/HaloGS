@@ -176,6 +176,8 @@ Scheme
 
 		"SectionTextColor"	"BrightControlText"	// text color for IN-GAME, ONLINE, OFFLINE sections of buddy list
 		"SectionDividerColor"	"BorderDark"		// color of line that runs under section name in buddy list
+
+		"UseScaledCreditsFont" "1"
 		
 		"ProportionalBaseWidth" "640"			// if the display resolution is above this,
 		"ProportionalBaseHeight" "480"			//  ui elements will be scaled.
@@ -334,6 +336,7 @@ Scheme
 				"weight"	"600"
 				"yres"	"480 599"
 				"dropshadow"	"1"
+				"antialias"	"1"
 			}
 			"2"
 			{
@@ -342,6 +345,7 @@ Scheme
 				"weight"	"600"
 				"yres"	"600 767"
 				"dropshadow"	"1"
+				"antialias"	"1"
 			}
 			"3"
 			{
@@ -350,14 +354,16 @@ Scheme
 				"weight"	"600"
 				"yres"	"768 1023"
 				"dropshadow"	"1"
+				"antialias"	"1"
 			}
 			"4"
 			{
 				"name"		"Blue Highway"
-				"tall"		"21"
+				"tall"		"32"
 				"weight"	"600"
 				"yres"	"1024 1299"
 				"dropshadow"	"1"
+				"antialias"	"1"
 			}
 			"5"
 			{
@@ -366,6 +372,7 @@ Scheme
 				"weight"	"600"
 				"yres"	"1300 1699"
 				"dropshadow"	"1"
+				"antialias"	"1"
 			}
 			"6"
 			{
@@ -374,6 +381,7 @@ Scheme
 				"weight"	"600"
 				"yres"	"1700 1899"
 				"dropshadow"	"1"
+				"antialias"	"1"
 			}
 			"7"
 			{
@@ -382,6 +390,7 @@ Scheme
 				"weight"	"600"
 				"yres"	"1900 2499"
 				"dropshadow"	"1"
+				"antialias"	"1"
 			}
 			"8"
 			{
@@ -390,6 +399,7 @@ Scheme
 				"weight"	"600"
 				"yres"	"2500 2999"
 				"dropshadow"	"1"
+				"antialias"	"1"
 			}
 			"9"
 			{
@@ -398,6 +408,7 @@ Scheme
 				"weight"	"600"
 				"yres"	"3000 10000"
 				"dropshadow"	"1"
+				"antialias"	"1"
 			}
 		}	
 		

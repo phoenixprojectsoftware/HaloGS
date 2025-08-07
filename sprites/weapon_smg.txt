@@ -1,13 +1,13 @@
 24
-weapon			2560 2560/weapon_357_weapon	0	0	510	135
-weapon_s		2560 2560/weapon_357_weapon_s	0	0	510	135
-ammo			2560 2560/weapon_357_ammo	0	0	72	72
+weapon			2560 2560/weapon_smg_weapon	0	0	510	135
+weapon_s		2560 2560/weapon_smg_weapon_s	0	0	510	135
+ammo			2560 2560/weapon_9mmar_ammo	0	0	72	72
 crosshair		2560 2560crosshairs	144	0	72	72
 autoaim			2560 2560crosshairs	72	216	72	72
 zoom			2560 2560crosshairs	288	0	72	72
-weapon			1280 1280/weapon_357_weapon	0	0	340	90
-weapon_s		1280 1280/weapon_357_weapon_s	0	0	340	90
-ammo			1280 1280/weapon_357_ammo	0	0	48	48
+weapon			1280 1280/weapon_smg_weapon	0	0	340	90
+weapon_s		1280 1280/weapon_smg_weapon_s	0	0	340	90
+ammo			1280 1280/weapon_9mmar_ammo	0	0	48	48
 crosshair		1280 1280crosshairs	96	0	48	48
 autoaim			1280 1280crosshairs	48	144	48	48
 zoom			1280 1280crosshairs	192	0	48	48
