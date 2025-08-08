@@ -73,7 +73,9 @@ d_snark			2560 2560/hud_d_snark		0	0	96	48
 d_skull			2560 2560/hud_d_skull		0	0	96	48
 d_tracktrain		2560 2560/hud_d_tracktrain	0	0	96	48
 d_shock_beam		2560 2560/hud_d_shock_beam 	0	0	145	48
-d_sniperrifle		2560 2560/hud_d_sniperrifle 	0	0	145	45
+d_sniperrifle		2560 2560/hud_d_sniperrifle 	0	0	144	48
+d_smg			2560 2560/hud_d_smg		0	0	96	48
+d_carbine		2560 2560/hud_d_carbine		0	0	144	48
 
 item_battery		2560 2560/hud_item_battery	0	0	132	132
 item_healthkit		2560 2560/hud_item_healthkit	0	0	132	132
@@ -163,7 +165,9 @@ d_snark			1280 1280/hud_d_snark		0	0	64	32
 d_skull			1280 1280/hud_d_skull		0	0	64	32
 d_tracktrain		1280 1280/hud_d_tracktrain	0	0	64	32
 d_shock_beam		1280 1280/hud_d_shock_beam 	0	0	90	32
-d_sniperrifle		1280 1280/hud_d_sniperrifle 	0	0	97	32
+d_sniperrifle		1280 1280/hud_d_sniperrifle 	0	0	103	32
+d_smg			1280 1280/hud_d_smg		0	0	64	32
+d_carbine		1280 1280/hud_d_carbine		0	0	96	32
 
 item_battery		1280 1280/hud_item_battery	0	0	88	88
 item_healthkit		1280 1280/hud_item_healthkit	0	0	88	88
@@ -254,17 +258,8 @@ d_tripmine		640 640hud1		192	192	32	16
 d_snark			640 640hud1		192	208	32	16
 d_skull			640 640hud1		192	224	32	16
 d_tracktrain		640 640hud1		192	240	32	16
-
-d_pipewrench       	640 640hudof01 		192 	0 	48  	16
-d_grapple          	640 640hudof01 		192 	16 	48  	16
-d_eagle            	640 640hudof01 		192 	32 	48  	16
-d_displacer_ball   	640 640hudof01 		192 	48 	48  	16
-d_spore            	640 640hudof01 		192 	64 	48  	16
 d_shock_beam       	640 640hudof01 		192 	80 	48  	16
-d_m249             	640 640hudof01 		192 	96 	52  	16
-d_knife            	640 640hudof01 		192 	112 	48  	16
-d_sniperrifle      	640 640hudof01 		192 	128 	48  	16
-d_penguin          	640 640hudof01 		192 	144 	48  	16
+d_sniperrifle      	640 640hud1		192	80	48	16
 
 item_battery		640 640hud2		176	0	44	44
 item_healthkit		640 640hud2		176	48	44	44
