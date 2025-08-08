@@ -32,7 +32,7 @@
 
 
 // Half-Life Server Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Wed Aug  6 04:18:58 PM
+// File generated:  Fri Aug  8 05:05:00 PM
 //
 //
 // Cvar	-	Setting
@@ -73,7 +73,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Phoenix_Gamemode"
 		{ STRING }
-		{ "ctf" }
+		{ "slayer" }
 	}
 
 	"sv_aura_gamemode_auto"
