@@ -32,7 +32,7 @@
 
 
 // Half-Life Server Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Fri Aug  8 05:05:00 PM
+// File generated:  Sat Aug  9 01:14:09 PM
 //
 //
 // Cvar	-	Setting
@@ -52,7 +52,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Valve_Max_Players"
 		{ NUMBER 1.000000 32.000000 }
-		{ "12.000000" }
+		{ "1.000000" }
 	}
 
 	"mapcyclefile"
