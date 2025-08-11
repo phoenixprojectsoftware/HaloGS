@@ -26,7 +26,7 @@
 //--------------------------------------------------------
 // Everything below here is editable
 
-"7" "Close"	"spec_menu 0"
+"0" "Close"	"spec_menu 0"
 
 "6" "Help"	"spec_help"
 
