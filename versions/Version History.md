@@ -4,4 +4,5 @@
 3. Beta 1 - 23rd September 2024
 
 # The Phoenix Project Software
-4. 1.0-PPT01
+4. 1.0 - 27th June 2025
+5. 1.1-DB01
