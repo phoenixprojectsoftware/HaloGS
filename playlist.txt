@@ -1,0 +1,4 @@
+"Playlist"
+{
+	"Splash"	"media\\menu.mp3"
+}
