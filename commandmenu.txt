@@ -113,7 +113,7 @@
 	{
 		"1" "Capture the Flag"	"ctf"
 		"2" "CTF Rounds"	"ctf2"
-		"3" "Domination"	"dom"
+		"3" "Territories"	"territories"
 		"4" "Team Slayer"	"tslayer"
 		"5" "Team Snipers"	"tsnipers"
 		"6" "Team SWAT"		"tswat"
