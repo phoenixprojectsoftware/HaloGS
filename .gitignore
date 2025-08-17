@@ -37,3 +37,4 @@ buffer.dat
 
 # VGUI2 generates these files whenever it reads an updated res.
 *.i
+*.pkf
