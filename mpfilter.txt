@@ -1,0 +1,10 @@
+"MapFilters"
+{
+    "Filter1" "c0"
+    "Filter2" "c1"
+    "Filter3" "c2"
+    "Filter4" "c3"
+    "Filter5" "c4"
+    "Filter6" "c5"
+    "Filter7" "t0"
+}
