@@ -88,6 +88,7 @@ Scheme
 		CheckButton.Border1  			"Border.Dark" 		// the left checkbutton border
 		CheckButton.Border2  			"Border.Bright"		// the right checkbutton border
 		CheckButton.Check				"BrightControlText"	// color of the check itself
+		CheckButton.HighlightFgColor	"BrightBaseText"
 
 		ComboBoxButton.ArrowColor		"DimBaseText"
 		ComboBoxButton.ArmedArrowColor	"BrightBaseText"

@@ -28,7 +28,7 @@
 	"5"
 	{
 		"label" "CUSTOM GAME"
-		"command" "OpenCreateMultiplayerGameDialog"
+		"command" "engine gameui_composer"
 		"HelpText" "Create your own game."
 		"NotSingle" "1"
 	}

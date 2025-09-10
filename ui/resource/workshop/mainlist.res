@@ -1,0 +1,56 @@
+"ui/workshop/mainlist.res"
+{
+	"WorkshopSubList"
+	{
+		"ControlName"		"CWorkshopSubList"
+		"fieldName"		"WorkshopSubList"
+		"xpos"		"388"
+		"ypos"		"239"
+		"wide"		"630"
+		"tall"		"444"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"RoundedCorners"		"15"
+		"pin_corner_to_sibling"		"0"
+		"pin_to_sibling_corner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+	}
+	"listpanel"
+	{
+		"ControlName"	"WorkshopItemList"
+		"fieldName"		"listpanel"
+		"visible"		"1"
+		"enabled"		"1"
+		"xpos"			"2"
+		"ypos"			"2"
+		"wide"			"788"
+		"tall"			"444"
+	}
+	"category_label"
+	{
+		"ControlName"				"Label"
+		"fieldName"					"category_label"
+		"xpos"						"25"
+		"ypos"						"450"
+		"wide"						"384"
+		"tall"						"24"
+		"autoResize"				"0"
+		"visible"					"1"
+		"enabled"					"1"
+		"labelText"					"#Phoenix_Workshop_CategoryFilter"
+		"textAlignment"				"west"
+	}
+	"category"
+	{
+		"ControlName"	"ComboBox"
+		"fieldName"		"category"
+		"visible"		"1"
+		"enabled"		"1"
+		"xpos"			"25"
+		"ypos"			"474"
+		"wide"			"235"
+		"tall"			"24"
+	}
+}
