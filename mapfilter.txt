@@ -106,6 +106,7 @@ frenzy
 gasworks
 hldemo1
 hldemo2
+hldemo3
 lambda_bunker
 pool_party
 rapidcore
