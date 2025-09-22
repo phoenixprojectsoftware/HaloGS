@@ -28,9 +28,9 @@ Scheme
 		"BaseText"		"255 255 255 255"	// used in text windows, lists
 		"BrightBaseText"	"255 255 255 255"	// brightest text
 		"SelectedText"		"255 255 255 255"	// selected text
-		"DimBaseText"		"174 174 176 255"	// dim base text
-		"LabelDimText"		"174 174 176 255"	// used for info text
-		"ControlText"		"174 174 176 255"	// used in all text controls
+		"DimBaseText"		"215 215 217 255"	// dim base text
+		"LabelDimText"		"215 215 217 255"	// used for info text
+		"ControlText"		"215 215 217 255"	// used in all text controls
 		"BrightControlText"	"41 150 255 255"	// use for selected controls
 		"DisabledText1"		"1 13 32 255"		// disabled text
 		"DisabledText2"		"66 74 87 255"		// overlay color for disabled text (to give that inset look)
