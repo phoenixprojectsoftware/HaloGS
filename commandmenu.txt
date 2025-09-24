@@ -36,8 +36,8 @@
 {
 	"0" "Help"
 	{
-		"1" "Console help"	"help;toggleconsole"
-		"2" "Aura version"	"version_aura;toggleconsole"
+		"1" "Server Commands"	"help;toggleconsole"
+		"2" "Aura Version"	"version_aura;toggleconsole"
 	}
 	"1" "Timer"
 	{
@@ -104,10 +104,11 @@
 		"1" "Slayer"		"slayer"
 		"2" "Snipers"		"snipers"
 		"3" "SWAT"		"swat"
-		"4" "Swords"		"swords"
-		"5" "Fiesta"		"fiesta"
-		"6" "Firefight"		"firefight"
-		"7" "Fiestafight"	"fiestafight"
+		"4" "SWATnums"		"swat2"
+		"5" "Swords"		"swords"
+		"6" "Fiesta"		"fiesta"
+		"7" "Firefight"		"firefight"
+		"8" "Fiestafight"	"fiestafight"
 	}
 	"2" "Team Modes"
 	{
@@ -117,16 +118,17 @@
 		"4" "Team Slayer"	"tslayer"
 		"5" "Team Snipers"	"tsnipers"
 		"6" "Team SWAT"		"tswat"
+		"7" "Team SWATnums"	"tswat2"
 	}
 	"3" "Custom..." "messagemode sv_aura_gamemode"
 }
 
-"4" "Change team"	"changeteam"
+"4" "Change Team"	"changeteam"
 
 "5" "Spectate"		"spectate"
 
-"6" "Drop flag" 	"dropitems"
+"6" "Drop Flag" 	"dropitems"
 
-"7" "Countdown timer"	"messagemode customtimer"
+"7" "Countdown Timer"	"messagemode customtimer"
 
 "0" "Close"		"spec_menu 0"
