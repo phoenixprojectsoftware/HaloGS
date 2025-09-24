@@ -32,7 +32,7 @@
 
 
 // Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Wed Aug  6 16:19:49 AM
+// File generated:  Wed Sep 24 23:19:10 AM
 //
 //
 // Cvar	-	Setting
@@ -58,6 +58,13 @@ DESCRIPTION INFO_OPTIONS
 	"steam_vibrate_enabled"
 	{
 		"#Phoenix_Vibration"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"hud_fastswitch"
+	{
+		"#Phoenix_FastSwitch"
 		{ BOOL }
 		{ "1" }
 	}
@@ -101,7 +108,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Valve_Center_Player_Names"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"hud_nametags"
@@ -129,7 +136,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_KillSoundPath"
 		{ STRING }
-		{ "buttons/bell1.wav" }
+		{ "player/killsound.wav" }
 	}
 
 	"hud_saytext_sound"
@@ -194,14 +201,14 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_OfsRight"
 		{ STRING }
-		{ "3" }
+		{ "0" }
 	}
 
 	"cl_viewmodel_ofs_up"
 	{
 		"#Phoenix_OfsUp"
 		{ STRING }
-		{ "-2" }
+		{ "0" }
 	}
 
 	"cl_righthand"
