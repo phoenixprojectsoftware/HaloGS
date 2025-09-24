@@ -27,6 +27,7 @@ cached.wad
 *.asd
 *.nod
 *.nrp
+startup_server.cfg
 
 # Notepad++ backups. DO NOT IGNORE .bkp FILES
 *.bak

@@ -36,8 +36,8 @@
 {
 	"0" "Help"
 	{
-		"1" "Console help"	"help;toggleconsole"
-		"2" "Aura version"	"version_aura;toggleconsole"
+		"1" "Server Commands"	"help;toggleconsole"
+		"2" "Aura Version"	"version_aura;toggleconsole"
 	}
 	"1" "Timer"
 	{
@@ -123,12 +123,12 @@
 	"3" "Custom..." "messagemode sv_aura_gamemode"
 }
 
-"4" "Change team"	"changeteam"
+"4" "Change Team"	"changeteam"
 
 "5" "Spectate"		"spectate"
 
-"6" "Drop flag" 	"dropitems"
+"6" "Drop Flag" 	"dropitems"
 
-"7" "Countdown timer"	"messagemode customtimer"
+"7" "Countdown Timer"	"messagemode customtimer"
 
 "0" "Close"		"spec_menu 0"

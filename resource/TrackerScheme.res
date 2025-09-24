@@ -139,10 +139,10 @@ Scheme
 		"CheckBgColor"			"ListBG"
 
 		// buttons (default fg/bg colors are used if these are not set)
-//		"ButtonArmedFgColor"
-//		"ButtonArmedBgColor"
-//		"ButtonDepressedFgColor"	"BrightControlText"
-//		"ButtonDepressedBgColor"
+		"ButtonArmedFgColor"		"BrightBaseText"
+		"ButtonArmedBgColor"		"186 186 186 150"
+		"ButtonDepressedFgColor"	"DimBaseText"
+		"ButtonDepressedBgColor"	"ControlDarkBG"
 
 		// buddy buttons
 		BuddyButton
