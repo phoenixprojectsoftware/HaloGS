@@ -228,6 +228,17 @@ DESCRIPTION INFO_OPTIONS
 		}
 		{ "0.000000" }
 	}
+		
+	"cl_legacy_bob_enabled"
+	{
+		"#Phoenix_Viewbob"
+		{
+			LIST
+			"#Phoenix_NewBob" "0"
+			"#Phoenix_OldBob" "1"
+		}
+		{ "0.000000" }
+	}
 
 	"hud_speedometer"
 	{
