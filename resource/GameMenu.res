@@ -31,6 +31,7 @@
 		"command" "engine gameui_composer"
 		"HelpText" "Create your own game."
 		"NotSingle" "1"
+		"notmulti" "1"
 	}
 	"6"
 	{

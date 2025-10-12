@@ -78,7 +78,7 @@ Scheme
 		Button.ArmedTextColor			"BrightBaseText"
 		Button.ArmedBgColor				"186 186 186 150"
 		Button.DepressedTextColor		"DimBaseText"
-		Button.DepressedBgColor			"ControlDarkBG"	
+		Button.DepressedBgColor			"ListBG"	
 		Button.FocusBorderColor			"TransparentBlack"
 		
 		CheckButton.TextColor			"BaseText"
