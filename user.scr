@@ -69,6 +69,13 @@ DESCRIPTION INFO_OPTIONS
 		{ "1" }
 	}
 
+	"room_off"
+	{
+		"#Phoenix_ReverbEffects"
+		{ BOOL }
+		{ "0" }
+	}
+
 	"default_fov"
 	{
 		"#Phoenix_Fov"
@@ -239,6 +246,13 @@ DESCRIPTION INFO_OPTIONS
 	"hud_color"
 	{
 		"#Phoenix_HudColor"
+		{ STRING }
+		{ "0" }
+	}
+
+	"con_color"
+	{
+		"#Phoenix_ChatColor"
 		{ STRING }
 		{ "0" }
 	}

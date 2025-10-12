@@ -37,7 +37,7 @@ Scheme
 
 		// titlebar colors
 		"TitleText"		"255 255 255 255"
-		"TitleDimText"		"66 74 87 255"
+		"TitleDimText"		"76 82 92 255"
 		"TitleBG"		"11 51 103 255"
 		"TitleDimBG"		"11 51 103 255"
 		
@@ -142,7 +142,7 @@ Scheme
 		"ButtonArmedFgColor"		"BrightBaseText"
 		"ButtonArmedBgColor"		"186 186 186 150"
 		"ButtonDepressedFgColor"	"DimBaseText"
-		"ButtonDepressedBgColor"	"ControlDarkBG"
+		"ButtonDepressedBgColor"	"ListBG"
 
 		// buddy buttons
 		BuddyButton
@@ -163,15 +163,15 @@ Scheme
 
 		InGameDesktop
 		{
-			"MenuColor"			"57 108 155 155"
-			"ArmedMenuColor"		"246 249 252 255"
+			"MenuColor"			"155 176 207 200"
+			"ArmedMenuColor"		"255 255 255 255"
 			"BlurMenuColor"			"57 108 155 255"
 			"DepressedMenuColor" 		"16 16 16 255"
-			"MenuHintColor"			"104 104 104 255"
+			"MenuHintColor"			"143 143 141 255"
 			"WidescreenBarColor" 		"0 0 0 0"
 			"MenuItemVisibilityRate"	"0.02"  	// time it takes for one menu item to appear
-			"MenuItemHeight"		"48" 		// this is proportional to resolution
-			"GameMenuInset"			"110"
+			"MenuItemHeight"		"33" 		// this is proportional to resolution
+			"GameMenuInset"			"90"
 		}
 
 		"SectionTextColor"	"BrightControlText"	// text color for IN-GAME, ONLINE, OFFLINE sections of buddy list
@@ -259,9 +259,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Slider"
-				"tall"		"28"
-				"weight"	"1000"
+				"name"		"Conduit ITC"
+				"tall"		"30"
+				"weight"	"300"
 				"dropshadow" "1"
 				"antialias"	"1"
 				"blur" "0"
@@ -271,12 +271,12 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Slider"
-				"tall"		"28"
-				"weight"	"800"
+				"name"		"Conduit ITC"
+				"tall"		"30"
+				"weight"	"200"
 				"dropshadow" "0"
 				"antialias"	"0"
-				"blur" "2"
+				"blur" "4"
 				"additive" "1"
 			}
 		}
@@ -285,7 +285,7 @@ Scheme
 			"1"
 			{
 				"name"		"Blue Highway"
-				"tall"		"24"
+				"tall"		"20"
 				"weight"	"200"
 				"dropshadow" "0"
 				"antialias"	"1"
@@ -496,8 +496,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Blue Highway"
-				"tall"		"14"
+				"name"		"Lucida Console"
+				"tall"		"12"
 				"weight"	"500"
 			}
 		}
@@ -995,5 +995,6 @@ Scheme
 		"12"		"resource/linux_fonts/FiraSans-Medium.ttf"
 		"13"		"resource/typeface/SLIDER.TTF"
 		"14"		"resource/typeface/BLUE_HIGHWAY_BOLD.OTF"
+		"15"		"resource/typeface/Conduit ITC Regular.otf"
 	}
 }
