@@ -75,7 +75,6 @@ d_tracktrain		2560 2560/hud_d_tracktrain	0	0	96	48
 d_shock_beam		2560 2560/hud_d_shock_beam 	0	0	145	48
 d_sniperrifle		2560 2560/hud_d_sniperrifle 	0	0	144	48
 d_smg			2560 2560/hud_d_smg		0	0	96	48
-d_carbine		2560 2560/hud_d_carbine		0	0	144	48
 
 item_battery		2560 2560/hud_item_battery	0	0	132	132
 item_healthkit		2560 2560/hud_item_healthkit	0	0	132	132
@@ -167,7 +166,6 @@ d_tracktrain		1280 1280/hud_d_tracktrain	0	0	64	32
 d_shock_beam		1280 1280/hud_d_shock_beam 	0	0	90	32
 d_sniperrifle		1280 1280/hud_d_sniperrifle 	0	0	103	32
 d_smg			1280 1280/hud_d_smg		0	0	64	32
-d_carbine		1280 1280/hud_d_carbine		0	0	96	32
 
 item_battery		1280 1280/hud_item_battery	0	0	88	88
 item_healthkit		1280 1280/hud_item_healthkit	0	0	88	88
