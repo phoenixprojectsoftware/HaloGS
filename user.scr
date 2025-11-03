@@ -32,7 +32,7 @@
 
 
 // Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Wed Sep 24 23:19:10 AM
+// File generated:  Sun Aug 17 23:00:58 AM
 //
 //
 // Cvar	-	Setting
@@ -51,7 +51,7 @@ DESCRIPTION INFO_OPTIONS
 	"zoom_sensitivity_ratio"
 	{
 		"#Phoenix_ZoomSens"
-		{ NUMBER 0.000000 4096.000000 }
+		{ NUMBER 0.000000 10.000000 }
 		{ "1.200000" }
 	}
 
@@ -59,19 +59,26 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_Vibration"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"hud_fastswitch"
 	{
 		"#Phoenix_FastSwitch"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"room_off"
 	{
 		"#Phoenix_ReverbEffects"
+		{ BOOL }
+		{ "0" }
+	}
+	
+	"cl_hidecorpses"
+	{
+		"#Phoenix_HideCorpses"
 		{ BOOL }
 		{ "0" }
 	}
@@ -81,13 +88,6 @@ DESCRIPTION INFO_OPTIONS
 		"#Phoenix_Fov"
 		{ NUMBER 20.000000 150.000000 }
 		{ "90.000000" }
-	}
-
-	"hud_watermark"
-	{
-		"#Phoenix_Watermark"
-		{ BOOL }
-		{ "1" }
 	}
 
 	"cl_autowepswitch"
@@ -102,6 +102,13 @@ DESCRIPTION INFO_OPTIONS
 		"#Valve_Automatic_Screenshots"
 		{ BOOL }
 		{ "0" }
+	}
+	
+	"hud_watermark"
+	{
+		"#Phoenix_Watermark"
+		{ BOOL }
+		{ "1" }
 	}
 
 	"hud_playerid"
@@ -123,13 +130,6 @@ DESCRIPTION INFO_OPTIONS
 		"#Phoenix_NameTags"
 		{ BOOL }
 		{ "1" }
-	}
-
-	"cl_hidecorpses"
-	{
-		"#Phoenix_HideCorpses"
-		{ BOOL }
-		{ "0" }
 	}
 
 	"hud_saytext_sound_path"
@@ -186,60 +186,10 @@ DESCRIPTION INFO_OPTIONS
 	"cl_scores"
 	{
 		"#Phoenix_MiniScores"
-		{ NUMBER 0.000000 35.000000 }
+		{ NUMBER 0.000000 15.000000 }
 		{ "2.000000" }
 	}
-
-	"cl_viewmodel_lag_enabled"
-	{
-		"#Phoenix_ViewmodelLag"
-		{ BOOL }
-		{ "1" }
-	}
-
-	"cl_viewmodel_ofs_forward"
-	{
-		"#Phoenix_OfsForward"
-		{ STRING }
-		{ "0" }
-	}
-
-	"cl_viewmodel_ofs_right"
-	{
-		"#Phoenix_OfsRight"
-		{ STRING }
-		{ "0" }
-	}
-
-	"cl_viewmodel_ofs_up"
-	{
-		"#Phoenix_OfsUp"
-		{ STRING }
-		{ "0" }
-	}
-
-	"cl_righthand"
-	{
-		"#Phoenix_HandAlign"
-		{
-			LIST
-			"#Phoenix_RightHand" "0"
-			"#Phoenix_LeftHand" "1"
-		}
-		{ "0.000000" }
-	}
-		
-	"cl_legacy_bob_enabled"
-	{
-		"#Phoenix_Viewbob"
-		{
-			LIST
-			"#Phoenix_NewBob" "0"
-			"#Phoenix_OldBob" "1"
-		}
-		{ "0.000000" }
-	}
-
+	
 	"hud_speedometer"
 	{
 		"#Phoenix_Speedometer"
@@ -275,11 +225,61 @@ DESCRIPTION INFO_OPTIONS
 		{ "0" }
 	}
 
+	"cl_viewmodel_ofs_forward"
+	{
+		"#Phoenix_OfsForward"
+		{ NUMBER -15.000000 15.000000 }
+		{ "0" }
+	}
+
+	"cl_viewmodel_ofs_right"
+	{
+		"#Phoenix_OfsRight"
+		{ NUMBER -15.000000 15.000000 }
+		{ "0" }
+	}
+
+	"cl_viewmodel_ofs_up"
+	{
+		"#Phoenix_OfsUp"
+		{ NUMBER -15.000000 15.000000 }
+		{ "0" }
+	}
+
+	"cl_righthand"
+	{
+		"#Phoenix_HandAlign"
+		{
+			LIST
+			"#Phoenix_RightHand" "0"
+			"#Phoenix_LeftHand" "1"
+		}
+		{ "0.000000" }
+	}
+	
+	"cl_legacy_bob_enabled"
+	{
+		"#Phoenix_Viewbob"
+		{
+			LIST
+			"#Phoenix_NewBob" "0"
+			"#Phoenix_OldBob" "1"
+		}
+		{ "0.000000" }
+	}
+	
+	"cl_viewmodel_lag_enabled"
+	{
+		"#Phoenix_ViewmodelLag"
+		{ BOOL }
+		{ "1" }
+	}
+
 	"cl_crowbar_punch_enabled"
 	{
 		"#Phoenix_CroPu"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"cl_cross"

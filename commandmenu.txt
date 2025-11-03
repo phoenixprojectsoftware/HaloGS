@@ -126,12 +126,10 @@
 	"3" "Custom..." "messagemode sv_aura_gamemode"
 }
 
-"4" "Change Team"	"changeteam"
+"4" "Drop Flag" 	"dropitems"
 
-"5" "Spectate"		"spectate"
+"5" "Change Team"	"changeteam"
 
-"6" "Drop Flag" 	"dropitems"
-
-"7" "Countdown Timer"	"messagemode customtimer"
+"6" "Spectate"		"spectate"
 
 "0" "Close"		"spec_menu 0"
