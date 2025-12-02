@@ -51,32 +51,27 @@
 		"2" "4 players/teams"	"cl_scores 4"
 		"0" "Off"		"cl_scores 0"
 	}
-	"3" "Old Scoreboard"
-	{
-		"1" "On"		"cl_old_scoreboard 1"
-		"2" "Off"		"cl_old_scoreboard 0"
-	}
-	"4" "Viewmodel"
+	"3" "Viewmodel"
 	{
 		"1" "On"		"r_drawviewmodel 1;hud_weapon 0"
 		"2" "Off"		"r_drawviewmodel 0;hud_weapon 1"
 	}
-	"5" "Speedometer"
+	"4" "Speedometer"
 	{
 		"1" "On"		"hud_speedometer 1"
 		"2" "Off"		"hud_speedometer 0"
 	}
-	"6" "Jumpspeed"
+	"5" "Jumpspeed"
 	{
 		"1" "On"		"hud_jumpspeed 1"
 		"2" "Off"		"hud_jumpspeed 0"
 	}
-	"7" "Net Graph"
+	"6" "Net Graph"
 	{
 		"1" "On"		"net_graph 3"
 		"2" "Off"		"net_graph 0"
 	}
-	"8" "Show FPS"
+	"7" "Show FPS"
 	{
 		"1" "On"		"cl_showfps 1"
 		"2" "Off"		"cl_showfps 0"
