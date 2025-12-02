@@ -136,7 +136,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_ChatSoundPath"
 		{ STRING }
-		{ "misc/talk.wav" }
+		{ "resource/warning.wav" }
 	}
 
 	"cl_killsound_path"
@@ -170,17 +170,6 @@ DESCRIPTION INFO_OPTIONS
 			"#Phoenix_TimeElapsed" "2"
 		}
 		{ "1.000000" }
-	}
-
-	"cl_old_scoreboard"
-	{
-		"#Phoenix_ScoreboardLook"
-		{
-			LIST
-			"#Phoenix_NewScore" "0"
-			"#Phoenix_OldScore" "1"
-		}
-		{ "0.000000" }
 	}
 
 	"cl_scores"
@@ -246,17 +235,6 @@ DESCRIPTION INFO_OPTIONS
 		{ "0" }
 	}
 
-	"cl_righthand"
-	{
-		"#Phoenix_HandAlign"
-		{
-			LIST
-			"#Phoenix_RightHand" "0"
-			"#Phoenix_LeftHand" "1"
-		}
-		{ "0.000000" }
-	}
-	
 	"cl_legacy_bob_enabled"
 	{
 		"#Phoenix_Viewbob"
@@ -267,7 +245,18 @@ DESCRIPTION INFO_OPTIONS
 		}
 		{ "0.000000" }
 	}
-	
+
+	"cl_righthand"
+	{
+		"#Phoenix_HandAlign"
+		{
+			LIST
+			"#Phoenix_RightHand" "0"
+			"#Phoenix_LeftHand" "1"
+		}
+		{ "0.000000" }
+	}
+
 	"cl_viewmodel_lag_enabled"
 	{
 		"#Phoenix_ViewmodelLag"
@@ -279,7 +268,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_CroPu"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"cl_cross"
@@ -299,21 +288,21 @@ DESCRIPTION INFO_OPTIONS
 	"cl_cross_size"
 	{
 		"#Phoenix_CustomCross_Size"
-		{ STRING }
+		{ NUMBER 0.000000 100.000000 }
 		{ "10" }
 	}
 
 	"cl_cross_thickness"
 	{
 		"#Phoenix_CustomCross_Thickness"
-		{ STRING }
+		{ NUMBER 0.000000 10.000000 }
 		{ "2" }
 	}
 
 	"cl_cross_alpha"
 	{
 		"#Phoenix_CustomCross_Alpha"
-		{ STRING }
+		{ NUMBER 0.000000 255.000000 }
 		{ "200" }
 	}
 
@@ -327,21 +316,21 @@ DESCRIPTION INFO_OPTIONS
 	"cl_cross_gap"
 	{
 		"#Phoenix_CustomCross_Gap"
-		{ STRING }
+		{ NUMBER 0.000000 50.000000 }
 		{ "3" }
 	}
 
 	"cl_cross_outline"
 	{
 		"#Phoenix_CustomCross_Outline"
-		{ STRING }
+		{ NUMBER 0.000000 10.000000 }
 		{ "0" }
 	}
 
 	"cl_cross_dot_size"
 	{
 		"#Phoenix_CustomCross_DotSize"
-		{ STRING }
+		{ NUMBER 0.000000 20.000000 }
 		{ "0" }
 	}
 
@@ -355,35 +344,35 @@ DESCRIPTION INFO_OPTIONS
 	"cl_cross_top_line"
 	{
 		"#Phoenix_CustomCross_TopLine"
-		{ STRING }
+		{ BOOL }
 		{ "1" }
 	}
 
 	"cl_cross_bottom_line"
 	{
 		"#Phoenix_CustomCross_BottomLine"
-		{ STRING }
+		{ BOOL }
 		{ "1" }
 	}
 
 	"cl_cross_left_line"
 	{
 		"#Phoenix_CustomCross_LeftLine"
-		{ STRING }
+		{ BOOL }
 		{ "1" }
 	}
 
 	"cl_cross_right_line"
 	{
 		"#Phoenix_CustomCross_RightLine"
-		{ STRING }
+		{ BOOL }
 		{ "1" }
 	}
 
 	"cl_cross_circle_radius"
 	{
 		"#Phoenix_CustomCross_Circle"
-		{ STRING }
+		{ NUMBER 0.000000 100.000000 }
 		{ "0" }
 	}
 

@@ -140,9 +140,9 @@ Scheme
 
 		// buttons (default fg/bg colors are used if these are not set)
 		"ButtonArmedFgColor"		"BrightBaseText"
-		"ButtonArmedBgColor"		"186 186 186 150"
+		"ButtonArmedBgColor"		"SelectionBG"
 		"ButtonDepressedFgColor"	"DimBaseText"
-		"ButtonDepressedBgColor"	"ListBG"
+		"ButtonDepressedBgColor"	"SelectionBG2"
 
 		// buddy buttons
 		BuddyButton
