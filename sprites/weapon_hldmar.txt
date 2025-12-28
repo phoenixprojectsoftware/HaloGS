@@ -1,20 +1,20 @@
-// Battle Rifle
+// mp5
 
 24	// number of sprites
-weapon			2560 2560/weapon_br_weapon	0	0	510	135
-weapon_s		2560 2560/weapon_br_weapon_s	0	0	510	135
+weapon			2560 2560/weapon_9mmar_weapon	0	0	510	135
+weapon_s		2560 2560/weapon_9mmar_weapon_s	0	0	510	135
 ammo			2560 2560/weapon_9mmar_ammo	0	0	72	72
 ammo2			2560 2560/weapon_9mmar_ammo2	0	0	72	72
 crosshair		2560 floydcross	160	96	64	64
 autoaim			2560 floydcross	32	96	64	64
-weapon			1280 1280/weapon_br_weapon	0	0	340	90
-weapon_s		1280 1280/weapon_br_weapon_s	0	0	340	90
+weapon			1280 1280/weapon_9mmar_weapon	0	0	340	90
+weapon_s		1280 1280/weapon_9mmar_weapon_s	0	0	340	90
 ammo			1280 1280/weapon_9mmar_ammo	0	0	48	48
 ammo2			1280 1280/weapon_9mmar_ammo2	0	0	48	48
 crosshair		1280 floydcross	160	96	64	64
 autoaim			1280 floydcross	32	96	64	64
-weapon			640 640HDhud1	0	135	170	45
-weapon_s		640 640HDhud4	0	135	170	45
+weapon			640 640hud1	0	135	170	45
+weapon_s		640 640hud4	0	135	170	45
 ammo			640 640hud7	0	72	24	24
 ammo2			640 640hud7	48	72	24	24
 crosshair		640 crosshairs	0	48	24	24

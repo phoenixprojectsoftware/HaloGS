@@ -1,0 +1,13 @@
+12
+weapon          	320 320hudof01 	80   	80   	80  	20
+weapon_s        	320 320hudof01 	80   	100  	80  	20
+crosshair		320 crosshairs	0	48	24	24
+weapon          	640 640hudof03 	0   	90   	170 	45
+weapon_s        	640 640hudof04 	0   	90   	170 	45
+crosshair		640 crosshairs	0	48	24	24
+weapon			1280 1280/op4/weapon_knife_weapon	0	0	340	90
+weapon_s		1280 1280/op4/weapon_knife_weapon_s	0	0	340	90
+crosshair		1280 floydcross	160	96	64	64
+weapon			2560 2560/op4/weapon_knife_weapon	0	0	510	135
+weapon_s		2560 2560/op4/weapon_knife_weapon_s	0	0	510	135
+crosshair		2560 floydcross	160	96	64	64

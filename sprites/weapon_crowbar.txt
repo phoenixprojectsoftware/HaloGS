@@ -1,10 +1,10 @@
 12
 weapon			2560 2560/weapon_crowbar_weapon	0	0	510	135
 weapon_s		2560 2560/weapon_crowbar_weapon_s	0	0	510	135
-crosshair		2560 2560crosshairs	0	144	72	72
+crosshair		2560 floydcross	160	96	64	64
 weapon			1280 1280/weapon_crowbar_weapon	0	0	340	90
 weapon_s		1280 1280/weapon_crowbar_weapon_s	0	0	340	90
-crosshair		1280 1280crosshairs	0	96	48	48
+crosshair		1280 floydcross	160	96	64	64
 weapon			640 640hud1	0	0	170	45
 weapon_s		640 640hud4	0	0	170	45
 crosshair		640 crosshairs	0	48	24	24

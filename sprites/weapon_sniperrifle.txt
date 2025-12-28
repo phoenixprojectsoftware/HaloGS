@@ -13,13 +13,13 @@ weapon          	640 640hudof03 	0   	135  	170 	45
 weapon_s        	640 640hudof04 	0   	135  	170 	45
 ammo            	1280 1280/weapon_357_ammo 	0	0	48	48
 zoom            	1280 ofch2  	0  	0   	256  	256
-crosshair		1280 1280crosshairs	96	48	48	48
-autoaim			1280 1280crosshairs	144	144	48	48
+crosshair		1280 floydcross	192	0	32	32
+autoaim			1280 floydcross	224	0	32	32
 weapon			1280 1280/weapon_sniperrifle_weapon	0	0	340	90
 weapon_s		1280 1280/weapon_sniperrifle_weapon_s	0	0	340	90
 ammo			2560 2560/weapon_357_ammo	0	0	72	72
 zoom            	2560 ofch2  	0  	0   	256  	256
-crosshair		2560 2560crosshairs	144	72	72	72
-autoaim			2560 2560crosshairs	216	216	72	72
+crosshair		2560 floydcross	192	0	32	32
+autoaim			2560 floydcross	224	0	32	32
 weapon			2560 2560/weapon_sniperrifle_weapon	0	0	510	135
 weapon_s		2560 2560/weapon_sniperrifle_weapon_s	0	0	510	135
