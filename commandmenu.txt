@@ -99,7 +99,7 @@
 		"1" "Slayer"		"slayer"
 		"2" "Snipers"		"snipers"
 		"3" "SWAT"		"swat"
-		"4" "SWATnums"		"swat2"
+		"4" "SWATnums"		"swatnums"
 		"5" "Swords"		"swords"
 		"6" "Fiesta"		"fiesta"
 		"7" "Firefight"		"firefight"
@@ -116,7 +116,7 @@
 		"6" "Four-Team Slayer"	"tslayer4"
 		"7" "Team Snipers"	"tsnipers"
 		"8" "Team SWAT"		"tswat"
-		"9" "Team SWATnums"	"tswat2"
+		"9" "Team SWATnums"	"tswatnums"
 	}
 	"3" "Custom..." "messagemode sv_aura_gamemode"
 }
