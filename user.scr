@@ -32,7 +32,7 @@
 
 
 // Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Sun Aug 17 23:00:58 AM
+// File generated:  Tue May 26 20:35:46 AM
 //
 //
 // Cvar	-	Setting
@@ -69,13 +69,20 @@ DESCRIPTION INFO_OPTIONS
 		{ "0" }
 	}
 
+	"cl_autojump"
+	{
+		"#Phoenix_Autojump"
+		{ BOOL }
+		{ "1" }
+	}
+
 	"room_off"
 	{
 		"#Phoenix_ReverbEffects"
 		{ BOOL }
 		{ "0" }
 	}
-	
+
 	"cl_hidecorpses"
 	{
 		"#Phoenix_HideCorpses"
@@ -87,14 +94,14 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_Fov"
 		{ NUMBER 20.000000 150.000000 }
-		{ "90.000000" }
+		{ "100.000000" }
 	}
 
 	"cl_autowepswitch"
 	{
 		"#Phoenix_AutoSwitch"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"hud_takesshots"
@@ -103,7 +110,7 @@ DESCRIPTION INFO_OPTIONS
 		{ BOOL }
 		{ "0" }
 	}
-	
+
 	"hud_watermark"
 	{
 		"#Phoenix_Watermark"
@@ -115,7 +122,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_PlayerID"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"hud_centerid"
@@ -136,7 +143,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_ChatSoundPath"
 		{ STRING }
-		{ "resource/warning.wav" }
+		{ "misc/talk.wav" }
 	}
 
 	"cl_killsound_path"
@@ -178,7 +185,7 @@ DESCRIPTION INFO_OPTIONS
 		{ NUMBER 0.000000 15.000000 }
 		{ "2.000000" }
 	}
-	
+
 	"hud_speedometer"
 	{
 		"#Phoenix_Speedometer"
@@ -204,7 +211,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_ChatColor"
 		{ STRING }
-		{ "0" }
+		{ "255 178 0" }
 	}
 
 	"hud_rainbow"
@@ -218,21 +225,21 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_OfsForward"
 		{ NUMBER -15.000000 15.000000 }
-		{ "0" }
+		{ "0.000000" }
 	}
 
 	"cl_viewmodel_ofs_right"
 	{
 		"#Phoenix_OfsRight"
 		{ NUMBER -15.000000 15.000000 }
-		{ "0" }
+		{ "0.000000" }
 	}
 
 	"cl_viewmodel_ofs_up"
 	{
 		"#Phoenix_OfsUp"
 		{ NUMBER -15.000000 15.000000 }
-		{ "0" }
+		{ "0.000000" }
 	}
 
 	"cl_righthand"
@@ -246,18 +253,11 @@ DESCRIPTION INFO_OPTIONS
 		{ "0.000000" }
 	}
 
-	"cl_viewmodel_lag_enabled"
-	{
-		"#Phoenix_ViewmodelLag"
-		{ BOOL }
-		{ "1" }
-	}
-
 	"cl_crowbar_punch_enabled"
 	{
 		"#Phoenix_CroPu"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"cl_cross"
@@ -278,21 +278,21 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_CustomCross_Size"
 		{ NUMBER 0.000000 100.000000 }
-		{ "10" }
+		{ "10.000000" }
 	}
 
 	"cl_cross_thickness"
 	{
 		"#Phoenix_CustomCross_Thickness"
 		{ NUMBER 0.000000 10.000000 }
-		{ "2" }
+		{ "2.000000" }
 	}
 
 	"cl_cross_alpha"
 	{
 		"#Phoenix_CustomCross_Alpha"
 		{ NUMBER 0.000000 255.000000 }
-		{ "200" }
+		{ "200.000000" }
 	}
 
 	"cl_cross_color"
@@ -306,21 +306,21 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_CustomCross_Gap"
 		{ NUMBER 0.000000 50.000000 }
-		{ "3" }
+		{ "3.000000" }
 	}
 
 	"cl_cross_outline"
 	{
 		"#Phoenix_CustomCross_Outline"
 		{ NUMBER 0.000000 10.000000 }
-		{ "0" }
+		{ "0.000000" }
 	}
 
 	"cl_cross_dot_size"
 	{
 		"#Phoenix_CustomCross_DotSize"
 		{ NUMBER 0.000000 20.000000 }
-		{ "0" }
+		{ "0.000000" }
 	}
 
 	"cl_cross_dot_color"
@@ -341,14 +341,14 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_CustomCross_BottomLine"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"cl_cross_left_line"
 	{
 		"#Phoenix_CustomCross_LeftLine"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"cl_cross_right_line"
@@ -362,7 +362,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#Phoenix_CustomCross_Circle"
 		{ NUMBER 0.000000 100.000000 }
-		{ "0" }
+		{ "0.000000" }
 	}
 
 }
