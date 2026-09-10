@@ -88,6 +88,9 @@ Scheme
 		CheckButton.Border2  			"Border.Bright"		// the right checkbutton border
 		CheckButton.Check				"BrightControlText"	// color of the check itself
 		CheckButton.HighlightFgColor	"BrightBaseText"
+		CheckButton.ArmedBgColor		"Blank"
+		CheckButton.DepressedBgColor		"Blank"
+		CheckButton.DisabledBgColor	   	"TransparentBlack"
 
 		ComboBoxButton.ArrowColor		"DimBaseText"
 		ComboBoxButton.ArmedArrowColor	"BrightBaseText"
@@ -274,19 +277,20 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bahnschrift"
+				"name"		"Blue Highway"
 				"tall"		"16"
-				"weight"	"500"
+				"weight"	"0"
 				"antialias" "1"
+				"dropshadow" "1"
 			}
 		}
 		"DefaultBold"
 		{
 			"1"
 			{
-				"name"		"Bahnschrift"
+				"name"		"Blue Highway"
 				"tall"		"16"
-				"weight"	"1000"
+				"weight"	"500"
 				"antialias" "1"
 			}
 		}
@@ -294,9 +298,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bahnschrift"
+				"name"		"Blue Highway"
 				"tall"		"16"
-				"weight"	"500"
+				"weight"	"0"
 				"underline" "1"
 				"antialias" "1"
 			}
@@ -305,7 +309,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bahnschrift"
+				"name"		"Blue Highway"
 				"tall"		"13"
 				"weight"	"0"
 				"antialias" "1"
@@ -315,7 +319,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bahnschrift"
+				"name"		"Blue Highway"
 				"tall"		"13"
 				"weight"	"0"
 				"dropshadow" "1"
@@ -326,7 +330,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bahnschrift"
+				"name"		"Blue Highway"
 				"tall"		"12"
 				"weight"	"0"
 				"antialias" "1"
@@ -337,17 +341,186 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bahnschrift"
+				"name"		"Blue Highway"
 				"tall"		"18"
 				"weight"	"0"
 				"antialias" "1"
 			}
 		}
+		
+		"DefaultSmallProportional"
+		{
+			"1"
+			{
+				"name"		"Blue Highway"
+				"tall"		"6"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+		
+		"DefaultProportional"
+		{
+			"1"
+			{
+				"name"		"Blue Highway"
+				"tall"		"10"
+				"weight"	"0"
+				"antialias"	"1"
+				"dropshadow"	"1"
+			}
+		}
+		
+		"AchievementTitleFont"
+		{
+			"1"
+			{
+				"name"		"Blue Highway"
+				"tall"		"20"
+				"weight"	"1200"
+				"antialias" "1"
+				"outline" "1"
+				"range"		"0x0000 0xFFFF"
+			}
+		}
+		
+		"AchievementTitleFontSmaller"
+		{
+			"1"
+			{
+				"name"		"Blue Highway"
+				"tall"		"18"
+				"weight"	"1200"
+				"antialias" "1"
+				"range"		"0x0000 0xFFFF"
+			}
+		}
+		
+		"AchievementDescriptionFont"
+		{
+			"1"
+			{
+				"name"		"Blue Highway"
+				"tall"		"15"
+				"weight"	"1200"
+				"antialias" "1"
+				"outline" "1"
+				"yres"		"0 480"
+				"range"		"0x0000 0xFFFF"
+			}
+			"2"
+			{
+				"name"		"Blue Highway"
+				"tall"		"20"
+				"weight"	"1200"
+				"antialias" "1"
+				"outline" "1"
+				"yres"	 "481 10000"
+				"range"		"0x0000 0xFFFF"
+			}
+		}
+		
+		AchievementItemTitle	[$WIN32]
+		{
+			"1"
+			{
+				"name"			"Blue Highway"
+				"weight"		"1500"
+				"tall"			"18"
+				"antialias"		"1"
+				"dropshadow"		"1"
+			}
+		}
+		
+		AchievementItemTitleLarge	[$WIN32]
+		{
+			"1"
+			{
+				"name"			"Blue Highway"
+				"weight"		"1500"
+				"tall"			"18"
+				"antialias"		"1"
+				"dropshadow"		"1"
+			}
+		}
+		
+		AchievementItemDescription	[$WIN32]
+		{
+			"1"
+			{
+				"name"			"Blue Highway"
+				"weight"		"1000"
+				"tall"			"17"
+				"antialias"		"1"
+				"dropshadow"		"1"
+			}
+		}
+
+		"ServerBrowserTitle"
+		{
+			"1"
+			{
+				"name"		"Blue Highway"
+				"tall"		"35"
+				"tall_lodef"	"40"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
+		"ServerBrowserSmall"
+		{
+			"1"
+			{
+				"name"		"Blue Highway"
+				"tall"		"16"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"480 599"
+			}
+			"2"
+			{
+				"name"		"Blue Highway"
+				"tall"		"16"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"600 767"
+			}
+			"3"
+			{
+				"name"		"Blue Highway"
+				"tall"		"16"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"Blue Highway"
+				"tall"		"19"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5"
+			{
+				"name"		"Blue Highway"
+				"tall"		"19"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1200 6000"
+				"antialias"	"1"
+			}
+		}
+				
 		"UiBold"
 		{
 			"1"
 			{
-				"name"		"Bahnschrift"
+				"name"		"Blue Highway"
 				"tall"		"12"
 				"weight"	"1000"
 				"antialias" "1"
@@ -357,7 +530,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bahnschrift"
+				"name"		"Blue Highway"
 				"tall"		"18"
 				"weight"	"1000"
 				"antialias" "1"
@@ -514,7 +687,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bahnschrift"
+				"name"		"Blue Highway"
 				"tall"		"16"
 				"weight"	"500"
 			}
@@ -523,7 +696,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bahnschrift"
+				"name"		"Blue Highway"
 				"tall"		"16"
 				"weight"	"500"
 				"italic"	"1"
@@ -533,7 +706,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bahnschrift"
+				"name"		"Blue Highway"
 				"tall"		"16"
 				"weight"	"900"
 			}
@@ -542,7 +715,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bahnschrift"
+				"name"		"Blue Highway"
 				"tall"		"16"
 				"weight"	"900"
 				"italic"	"1"
@@ -1015,6 +1188,15 @@ Scheme
 	CustomFontFiles
 	{
 		"1"		"resource/HALFLIFE2.ttf"
+		"4"		"resource/typeface/nokiafc22.ttf"
+		"13"		"resource/typeface/eurostile/Eurostile_Extd.otf"
+		"14"		"resource/typeface/din1451alt.ttf"
+		"15"		"resource/typeface/AllertaStencil-Regular.ttf"
+		"19"		"resource/typeface/Blue Highway.otf"
+		"20"		"resource/typeface/Blue Highway-Bold.otf"
+		"21"		"resource/typeface/eurostile/Eurostile.otf"
+		"22"		"resource/typeface/lucon.ttf"
+		"23"	"resource/typeface/eurostile/Eurostile_Extd_Black.otf"
 	
 	}
 }

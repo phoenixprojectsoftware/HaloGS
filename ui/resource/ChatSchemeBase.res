@@ -263,7 +263,16 @@ Scheme
 				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"	"1200 6000"
+				"yres"	"1200 2159"
+				"antialias"	"1"
+			}
+			"6"
+			{
+				"name"		"Verdana"
+				"tall"		"45"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"2160 6000"
 				"antialias"	"1"
 			}
 		}
@@ -309,7 +318,15 @@ Scheme
 				"name"		"Marlett"
 				"tall"		"22"
 				"weight"	"0"
-				"yres"		"1200 10000"
+				"yres"		"1200 2159"
+				"symbol"	"1"
+			}
+			"6"
+			{
+				"name"		"Marlett"
+				"tall"		"35"
+				"weight"	"0"
+				"yres"		"2160 6000"
 				"symbol"	"1"
 			}
 		}
@@ -318,14 +335,21 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
-				"tall"		"17"
-				"weight"	"800"
+				"name"			"Blue Highway"
+				"tall"			"17"
+				"weight"		"800"
 				"dropshadow"	"1"
+				"yres"			"480 2159"
+			}
+			"2"
+			{
+				"name"			"Blue Highway"
+				"tall"			"35"
+				"weight"		"800"
+				"dropshadow"	"1"
+				"yres"			"2160 6000"
 			}
 		}
-
-
 	}
 
 	//

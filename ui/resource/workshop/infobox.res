@@ -7,7 +7,7 @@
 		"xpos"							"4"
 		"ypos"							"4"
 		"wide"							"250"
-		"tall"							"40"
+		"tall"							"80"
 		"RoundedCorners"				"15"
 		"visible"						"1"
 		"enabled"						"1"
@@ -39,7 +39,7 @@
 		"autoResize"				"0"
 		"visible"					"1"
 		"enabled"					"1"
-		"labelText"					"12345"
+		"labelText"					""
 		"textAlignment"				"west"
 		"font"						"AchievementItemDescription"
 	}

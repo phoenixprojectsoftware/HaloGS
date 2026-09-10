@@ -49,5 +49,72 @@ Scheme
 		// 		"dropshadow"	"1"
 		// 	}
 		// }
+		
+		"ScoreboardTitle"
+		{
+			"1"
+			{
+				"name" "Conduit ITC"
+				"tall" "20"
+				"weight" "700"
+				"antialias" "1"
+			}
+		}
+		
+		"ScoreboardHeader"
+		{
+			"1"
+			{
+				"name" "Blue Highway"
+				"tall" "40"
+				"weight" "700"
+				"antialias" "1"
+			}
+		}
+		
+		"ScoreboardLabHeader"
+		{
+			"1"
+			{
+				"name" "Blue Highway"
+				"tall" "10"
+				"weight" "700"
+				"antialias" "1"
+			}
+		}
+		
+		"ScoreboardPlayer"
+		{
+			"1"
+			{
+				"name" "Blue Highway"
+				"tall" "45"
+				"weight" "500"
+				"antialias" "1"
+			}
+		}
+		
+		"ScoreboardDeveloper"
+		{
+			"1"
+			{
+				"name" "Anurati"
+				"tall" "15"
+				"weight" "500"
+				"antialias" "1"
+			}
+		}
+		
+		"ChatText"
+		{
+			"1"
+			{
+				"name" "Blue Highway"
+				"tall" "56"
+				"weight" "500"
+				"antialias" "1"
+				"dropshadow" "1"
+			}
+		}
 	}
 }

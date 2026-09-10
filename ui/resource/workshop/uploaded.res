@@ -25,7 +25,22 @@
 		"enabled"		"1"
 		"xpos"			"2"
 		"ypos"			"2"
-		"wide"			"788"
-		"tall"			"505"
+		"wide"			"520"
+		"tall"			"220"
+	}
+	"Refresh"
+	{
+		"ControlName"			"Button"
+		"fieldName"				"Refresh"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"420"
+		"ypos"					"225"
+		"wide"					"80"
+		"tall"					"15"
+		"labelText"				"#Phoenix_Workshop_Refresh"
+		"command"				"Refresh"
+		"font"					"DefaultProportional"
+		"textAlignment"			"center"
 	}
 }

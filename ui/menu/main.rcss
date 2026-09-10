@@ -1,0 +1,233 @@
+body
+{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+
+	font-family: "Nokia Cellphone FC";
+	color: #d8ffe8;
+	/*background-color: #030506;*/
+}
+#background
+{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: #030506;
+	opacity: 0.3;
+}
+
+#grid
+{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+
+	background-color: #07100a;
+}
+
+#scanlines
+{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+
+	background-color: rgba(0, 255, 80, 0.035);
+}
+
+#vignette
+{
+	position: absolute;
+	left: 32px;
+	top: 32px;
+	right: 32px;
+	bottom: 32px;
+
+	border: 1px #132818;
+}
+
+#main-layout
+{
+	position: absolute;
+	left: 96px;
+	top: 96px;
+	right: 96px;
+	bottom: 96px;
+}
+
+#left-panel
+{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 620px;
+	height: 100%;
+}
+
+#right-panel
+{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 520px;
+}
+
+#brand
+{
+	margin-bottom: 64px;
+}
+
+.eyebrow
+{
+	font-size: 15px;
+	letter-spacing: 2px;
+	color: #57ff90;
+	margin-bottom: 14px;
+}
+
+.title-small
+{
+	font-size: 34px;
+	letter-spacing: 3px;
+	color: #b8ffc8;
+}
+
+.title-main
+{
+	font-size: 66px;
+	letter-spacing: 1px;
+	color: #bf00ff;
+	margin-top: -4px;
+}
+
+.subtitle
+{
+	font-size: 16px;
+	color: #8be8a6;
+	margin-top: 12px;
+}
+
+#buttons
+{
+	width: 500px;
+}
+
+button
+{
+	display: block;
+
+	width: 500px;
+	height: 52px;
+	margin-bottom: 5px;
+
+	background-color: rgba(0, 22, 12, 0.88);
+	color: #bf00ff;
+	
+	transition: padding-left 0.065s, background-color 0.065s, font-size 0.065s;
+	
+	font-size: 30px;
+	text-align: left;
+	padding-top: 10px;
+	padding-left: 22px;
+}
+
+button:hover
+{
+	font-size: 36px;
+	background-color: #1a0820;
+	color: #ffffff;
+	border: 1px #bf00ff;
+	padding-left: 34px;
+}
+
+button:active
+{
+	font-size: 24px;
+	background-color: #bf00ff;
+	color: #030506;
+	border: 1px #ffffff;
+}
+
+.panel
+{
+	width: 480px;
+	margin-bottom: 24px;
+	padding: 20px;
+
+	background-color: rgba(0, 18, 10, 0.86);
+	border: 1px #1d8f45;
+}
+
+.panel-title
+{
+	font-size: 16px;
+	letter-spacing: 2px;
+	color: #57ff90;
+	margin-bottom: 18px;
+}
+
+.status-row
+{
+	height: 28px;
+	margin-bottom: 8px;
+}
+
+.label
+{
+	display: inline-block;
+	width: 150px;
+
+	font-size: 14px;
+	color: #78b889;
+}
+
+.value
+{
+	display: inline-block;
+
+	font-size: 14px;
+	color: #d8ffe8;
+}
+
+.ok
+{
+	color: #57ff90;
+}
+
+.broadcast-title
+{
+	font-size: 22px;
+	color: #bf00ff;
+	margin-bottom: 12px;
+}
+
+.broadcast-body
+{
+	font-size: 15px;
+	line-height: 22px;
+	color: #b8ffc8;
+}
+
+#footer
+{
+	position: absolute;
+	left: 32px;
+	right: 32px;
+	bottom: 24px;
+
+	height: 24px;
+
+	font-size: 13px;
+	color: #57ff90;
+}
+
+.footer-right
+{
+	float: right;
+}

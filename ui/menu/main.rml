@@ -1,0 +1,38 @@
+<rml>
+<head>
+	<title>Half-Life: Cross Product</title>
+	<link type="text/rcss" href="main.rcss"/>
+</head>
+
+<body>
+	<div id="background">
+		<div id="grid"></div>
+		<div id="vignette"></div>
+		<div id="scanlines"></div>
+	</div>
+
+	<div id="main-layout">
+		<div id="left-panel">
+			<div id="brand">
+				<div class="eyebrow">THE PHOENIX PROJECT SOFTWARE</div> <br />
+				<div class="title-main">CROSS PRODUCT</div>
+			</div>
+
+			<div id="buttons">
+				<button id="serverbrowser">FIND GAMES</button>
+				<button id="composer">CUSTOM GAME</button>
+				<button id="workshop">WORKSHOP</button>
+				<button id="options">OPTIONS</button>
+				<button id="extras">EXTRAS</button>
+				<button id="quit">QUIT</button>
+			</div>
+		</div>
+
+		<div id="right-panel">
+		
+		
+	<div id="footer">
+		<span>v2.10-DB26</span>
+	</div>
+</body>
+</rml>
