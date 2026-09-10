@@ -1,0 +1,6 @@
+# Sapien generated KOTH zones
+# Format: name originX originY originZ sizeX sizeY sizeZ
+
+Center -176.0 464.0 96.0 512.0 544.0 128.0
+Room 512.0 -824.0 304.0 224.0 400.0 128.0
+Cold -984.0 192.0 32.0 432.0 416.0 128.0

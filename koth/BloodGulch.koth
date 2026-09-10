@@ -1,0 +1,7 @@
+# Sapien generated KOTH zones
+# Format: name originX originY originZ sizeX sizeY sizeZ
+
+Middle 112.0 152.0 64.0 512.0 560.0 128.0
+Turret 2392.0 96.0 544.0 400.0 320.0 128.0
+Corner -1312.0 2376.0 64.0 544.0 592.0 128.0
+Cliffside -2184.0 -8.0 448.0 208.0 304.0 128.0

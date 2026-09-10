@@ -1,0 +1,7 @@
+# Sapien generated KOTH zones
+# Format: name originX originY originZ sizeX sizeY sizeZ
+
+Waterfall 0.0 -1472.0 64.0 672.0 128.0 128.0
+RPG 80.0 -304.0 96.0 576.0 160.0 128.0
+Purple -16.0 216.0 512.0 640.0 368.0 128.0
+Overlook 1000.0 -176.0 960.0 304.0 320.0 128.0

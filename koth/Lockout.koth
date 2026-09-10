@@ -1,0 +1,7 @@
+# Sapien generated KOTH zones
+# Format: name originX originY originZ sizeX sizeY sizeZ
+
+Middle 8.0 24.0 64.0 528.0 464.0 128.0
+Lower -1544.0 120.0 -192.0 368.0 368.0 128.0
+Drop -16.0 88.0 -160.0 384.0 272.0 128.0
+Lift -16.0 -1496.0 192.0 416.0 272.0 128.0

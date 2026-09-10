@@ -1,0 +1,6 @@
+# Sapien generated KOTH zones
+# Format: name originX originY originZ sizeX sizeY sizeZ
+
+Range 88.0 -664.0 -32.0 528.0 464.0 128.0
+Kitchen -1400.0 -536.0 64.0 240.0 400.0 128.0
+Minefield 1680.0 1016.0 104.0 512.0 144.0 144.0

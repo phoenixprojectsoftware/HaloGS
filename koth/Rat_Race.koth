@@ -1,0 +1,6 @@
+# Sapien generated KOTH zones
+# Format: name originX originY originZ sizeX sizeY sizeZ
+
+Cave -712.0 992.0 432.0 336.0 160.0 128.0
+Hill -1272.0 1864.0 320.0 624.0 432.0 128.0
+Pillars -416.0 -8.0 64.0 1440.0 400.0 128.0
